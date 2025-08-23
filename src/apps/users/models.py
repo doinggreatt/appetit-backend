@@ -15,17 +15,26 @@ logger = get_module_logger('auth')
 
 class BaseUserModel(Base):
     __abstract__ = True
-    __table_args__ = {'schema': 'auth'}
+    __table_args__ = {'schema': 'users'}
 
 class User(BaseUserModel):
     __tablename__ = 'user'
     id: Mapped[BaseModelFieldTypes.intpk]
-    username: Mapped[BaseModelFieldTypes.str_255]
+    email: Mapped[BaseModelFieldTypes.str_255]
+    first_name: Mapped[BaseModelFieldTypes.str_255]
+    last_name: Mapped[BaseModelFieldTypes.str_255]
     password: Mapped[bytes] = mapped_column(LargeBinary, nullable=False)
     is_admin: Mapped[bool] = mapped_column(default=False)
     created_at: Mapped[datetime] = mapped_column(
         DateTime, default=datetime.utcnow, server_default=func.now()
     )
+    updated_at: Mapped[datetime] = mapped_column(
+        DateTime,
+        default=datetime.utcnow,
+        onupdate=datetime.utcnow,
+        server_default=func.now()
+    )
+
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)

@@ -336,3 +336,4 @@ apps/media/
 .env
 .envs/*
 !.envs/.local/
+logs/

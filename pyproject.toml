@@ -10,5 +10,7 @@ dependencies = [
     "authx>=1.4.3",
     "fastapi>=0.116.1",
     "gunicorn>=23.0.0",
+    "psycopg>=3.2.9",
+    "pydantic[email]>=2.11.7",
     "uvicorn>=0.35.0",
 ]
