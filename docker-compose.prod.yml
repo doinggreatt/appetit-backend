@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  web:
+    build: 
+      context: .
+      dockerfile: ./compose/Dockerfile
+    container_name: drota2_web
+    volumes:
+      - .:/app 
+    ports:
+      - '8080:8080' 
+      

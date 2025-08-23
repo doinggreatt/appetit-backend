@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  web:
+    build: 
+      context: .
+      dockerfile: compose/Dockerfile
+      args:
+        DEBUG_ARG: true
+    container_name: appetit_web
+    environment:
+      - PYTHONPATH=/app/src
+    volumes:
+      - ./src:/app/src
+    ports:
+      - '8080:8080'
+    env_file:
+      - .env
+
+  postgres:
+    image: postgres:17.5 
+    container_name: appetit_psql
+    ports:
+      - "5432:5432"
+    env_file:
+      - .env
+      
