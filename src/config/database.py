@@ -80,6 +80,7 @@ from sqlalchemy import text
 
 schemas = [
     "users",
+    "menu",
 ]
 
 def create_schemas():
