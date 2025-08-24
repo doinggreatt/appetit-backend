@@ -48,7 +48,7 @@ class FoodSize(BaseMenuModel):
 
 
 
-class FoodModifierOptions(BaseMenuModel):
+class FoodModifierOption(BaseMenuModel):
     __tablename__ = "food_modifier_options"
 
     food_id: Mapped[int] = mapped_column(ForeignKey("menu.food.id"))

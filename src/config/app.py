@@ -37,6 +37,6 @@ app.openapi = custom_openapi
 @app.exception_handler(MissingTokenError)
 async def missing_token_handler(request: Request, exc: MissingTokenError):
     return JSONResponse(
-        status_code=404,
+        status_code=404 ,
         content={"detail": "not found"}
     )

@@ -27,10 +27,11 @@ class ReadFoodSizeSchema(WriteFoodSizeSchema):
 # ==================== Food =============================
 
 class WriteFoodSchema(BaseModel):
-    food_name: str
+    name: str
     food_sizes: list[WriteFoodSizeSchema]
-    is_new: bool
     possible_food_modifiers: list[int]
+    type_id: int
+
 
 # =========== Modifier | Modifier Option =========
 
@@ -38,6 +39,12 @@ class WriteModifierCategorySchema(BaseModel):
     name: str
 
 class WriteModifierOptionSchema(BaseModel):
-    modifier_category_id: id
+    modifier_category_id: int
     name: str
     price: float
+
+class ReadModifierOptionSchema(BaseModel):
+    id: int
+    name: str
+    price: float
+
