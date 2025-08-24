@@ -32,8 +32,20 @@ class Food(BaseMenuModel):
     name: Mapped[BaseModelFieldTypes.str_255]
     type_id: Mapped[int] = mapped_column(ForeignKey("food_type.id"))
 
-    is_new: Mapped[bool] = mapped_column(default=False)
     food_type: Mapped["FoodType"] = relationship(back_populates="foods")
+    sizes: Mapped["FoodSize"] = relationship(back_populates="parent_food")
+
+class FoodSize(BaseMenuModel):
+    __tablename__ = "food_size"
+
+    name: Mapped[BaseModelFieldTypes.str_255]
+    parent_id: Mapped[int] = mapped_column(ForeignKey("food.id"))
+    is_new: Mapped[bool] = mapped_column(default=False)
+    price: Mapped[float]
+
+    parent_food = relationship(back_populates="sizes")
+
+
 
 
 class FoodModifierOptions(BaseMenuModel):
