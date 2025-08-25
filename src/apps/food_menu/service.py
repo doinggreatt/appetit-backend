@@ -1,4 +1,5 @@
 import logging
+from typing import Any
 
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
@@ -6,17 +7,27 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from config import get_module_logger
 from apps.common import InternalError
 from .schemas import WriteFoodSchema, WriteModifierCategorySchema, ReadModifierCategoryOptionSchema, \
-    ReadSingleModifierOptionSchema, WriteModifierOptionSchema
-from .models import Food, FoodSize, FoodModifierOption, ModifierCategory, ModifierOption
+    ReadSingleModifierOptionSchema, WriteModifierOptionSchema, WriteFoodTypeSchema
+from .models import Food, FoodSize, FoodType, FoodModifierOption, ModifierCategory, ModifierOption
 
 
 logger: logging.Logger = get_module_logger(__name__)
 
 
+async def _create(*, db_sess: AsyncSession, model_dump_data: dict[str, Any], model: Any) -> Any:
+    new_obj = model(**model_dump_data)
+
+    db_sess.add(new_obj)
+    await db_sess.commit()
+    await db_sess.flush()
+
+    return new_obj
+
+
+
 async def create_food_service(*, db_sess: AsyncSession, food_data: WriteFoodSchema):
 
     try:
-        print(food_data)
         new_food_obj = Food(**food_data.model_dump(exclude=['possible_food_modifiers', 'food_sizes']))
         db_sess.add(new_food_obj)
         await db_sess.commit()
@@ -125,3 +136,21 @@ async def create_modifier_option_service(*, db_sess: AsyncSession, modifier_opti
 
     except Exception as e:
         raise InternalError(e, module_name=__name__)
+
+
+async def create_food_type_service(*, db_sess: AsyncSession, food_type_data: WriteFoodTypeSchema):
+    try:
+        food_type = await _create(db_sess=db_sess, model_dump_data=food_type_data.model_dump(), model=FoodType)
+        return food_type
+
+    except Exception as e:
+        raise InternalError(e, module_name=__name__)
+
+
+async def get_food_type_service(*, db_sess: AsyncSession):
+    stmt = select(FoodType)
+    res = await db_sess.execute(stmt)
+
+    food_types = res.scalars().all()
+
+    return food_types

@@ -7,10 +7,10 @@ from pydantic import BaseModel
 
 # ================== Food Type ========================
 
-class WriteFoodType(BaseModel):
+class WriteFoodTypeSchema(BaseModel):
     name: str
 
-class ReadFoodType(BaseModel):
+class ReadFoodTypeSchema(BaseModel):
     id: int
     name: str
 
