@@ -1,12 +1,13 @@
 import logging
 
+from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
-from fastapi import HTTPException
-
 
 from config import get_module_logger
-from .schemas import WriteFoodSchema
-from .models import Food, FoodSize, FoodModifierOption
+from apps.common import InternalError
+from .schemas import WriteFoodSchema, WriteModifierCategorySchema, ReadModifierCategoryOptionSchema, \
+    ReadSingleModifierOptionSchema, WriteModifierOptionSchema
+from .models import Food, FoodSize, FoodModifierOption, ModifierCategory, ModifierOption
 
 
 logger: logging.Logger = get_module_logger(__name__)
@@ -14,8 +15,8 @@ logger: logging.Logger = get_module_logger(__name__)
 
 async def create_food_service(*, db_sess: AsyncSession, food_data: WriteFoodSchema):
 
-
     try:
+        print(food_data)
         new_food_obj = Food(**food_data.model_dump(exclude=['possible_food_modifiers', 'food_sizes']))
         db_sess.add(new_food_obj)
         await db_sess.commit()
@@ -42,12 +43,85 @@ async def create_food_service(*, db_sess: AsyncSession, food_data: WriteFoodSche
         return new_food_obj
 
     except Exception as e:
-        logger.error(f"Error when trying to create new food: {e}")
-        raise HTTPException(status_code=500, detail="Error when trying to create data. Try to contact administrator.")
+        raise InternalError(e, module_name=__name__)
 
 
 
+async def create_modifier_category_service(*, db_sess: AsyncSession, modifier_cat_data: WriteModifierCategorySchema):
+    try:
+        modifier_category = ModifierCategory(**modifier_cat_data.model_dump())
+
+        db_sess.add(modifier_category)
+        await db_sess.commit()
+
+        return modifier_category
+
+    except Exception as e:
+        raise InternalError(e, module_name=__name__)
 
 
+async def get_modifier_category_service(*, db_sess: AsyncSession):
+    try:
+        stmt = select(ModifierCategory)
+        res = await db_sess.execute(stmt)
+
+        return res.scalars().all()
+
+    except Exception as e:
+        raise InternalError(e, __name__)
+
+async def get_modifier_options_service(*, db_sess: AsyncSession):
+
+    modifier_cats = set()
+
+    output: list[ReadModifierCategoryOptionSchema] = list()
+
+    try:
+        stmt = select(ModifierOption)
+        res = await db_sess.execute(stmt)
+        modifier_options = res.scalars().all()
+        if len(modifier_options) > 0:
+
+            for modifier_option in modifier_options:
+
+                if modifier_option.modifier_category_id not in modifier_cats:
+                    res = await db_sess.execute(select(ModifierCategory).where(ModifierCategory.id == modifier_option.modifier_category_id))
+                    modifier_cat = res.scalars().one_or_none()
+
+                    modifier_cats.add(modifier_cat)
+                    output.append(
+                        ReadModifierCategoryOptionSchema(
+                            modifier_cat_id=modifier_cat.id,
+                            modifier_cat_name=modifier_cat.name,
+                        )
+                    )
+
+                for _ in output:
+                    if _.modifier_cat_id == modifier_option.modifier_category_id:
+                        _.modifier_options.append(
+                            ReadSingleModifierOptionSchema(
+                                id=modifier_option.id,
+                                name=modifier_option.name,
+                                price=modifier_option.price
+                            )
+                        )
 
 
+        return output
+
+    except Exception as e:
+        raise InternalError(e, module_name=__name__)
+
+async def create_modifier_option_service(*, db_sess: AsyncSession, modifier_option_data: WriteModifierOptionSchema):
+    try:
+        modifier_option = ModifierOption(**modifier_option_data.model_dump())
+
+        db_sess.add(modifier_option)
+
+        await db_sess.commit()
+        await db_sess.flush()
+
+        return modifier_option
+
+    except Exception as e:
+        raise InternalError(e, module_name=__name__)

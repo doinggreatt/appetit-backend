@@ -34,6 +34,7 @@ class Food(BaseMenuModel):
 
     food_type: Mapped["FoodType"] = relationship(back_populates="foods")
     sizes: Mapped["FoodSize"] = relationship(back_populates="parent_food")
+    modifier_options: Mapped["FoodModifierOption"] = relationship(back_populates="food")
 
 class FoodSize(BaseMenuModel):
     __tablename__ = "food_size"
@@ -65,5 +66,5 @@ class ModifierCategory(BaseMenuModel): # соусы
 class ModifierOption(BaseMenuModel):
     __tablename__ = "modifier_option"
     name: Mapped[BaseModelFieldTypes.str_255]
-    food_modifier_option_id: Mapped[int] = mapped_column(ForeignKey("menu.modifier_category.id"))
+    modifier_category_id: Mapped[int] = mapped_column(ForeignKey("menu.modifier_category.id"))
     price: Mapped[float]
