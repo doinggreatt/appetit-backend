@@ -154,3 +154,6 @@ async def get_food_type_service(*, db_sess: AsyncSession):
     food_types = res.scalars().all()
 
     return food_types
+
+async def get_food(*, db_sess: AsyncSession):
+    stmt = select(Food)
