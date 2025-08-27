@@ -1,1 +1,1 @@
-from .routers import router
+from .routers import admin_router, common_router

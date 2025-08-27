@@ -1,43 +1,43 @@
 from fastapi import APIRouter, Depends
-from sqlalchemy import select
 
 from config import SessionDep
-from .models import ModifierCategory
 from .schemas import WriteFoodSchema, WriteModifierCategorySchema, WriteModifierOptionSchema, WriteFoodTypeSchema
 from .schemas import ReadModifierCategorySchema, ReadFoodTypeSchema
 from .service import create_food_service, create_modifier_category_service, create_modifier_option_service, create_food_type_service
-from .service import get_modifier_category_service, get_modifier_options_service, get_food_type_service
+from .service import get_modifier_category_service, get_modifier_options_service, get_food_type_service, get_food_service
 
-router = APIRouter(prefix="/food", tags=["Food"])
+common_router = APIRouter(tags=["Food"])
+admin_router = APIRouter(tags=["Food - admin"])
+
 
 # =============== Food
 
-@router.post("", status_code=201)
+@common_router.post("", status_code=201)
 async def create_food(db_sess: SessionDep, food_data: WriteFoodSchema):
     food = await create_food_service(db_sess=db_sess, food_data=food_data)
     return food
 
 
 # =============== Food Type
-@router.post("/type", status_code=201, response_model=ReadFoodTypeSchema)
+@admin_router.post("/type", status_code=201, response_model=ReadFoodTypeSchema)
 async def create_food_type(db_sess: SessionDep, food_type_data: WriteFoodTypeSchema):
     food_type = await create_food_type_service(db_sess=db_sess, food_type_data=food_type_data)
     return food_type
 
-@router.get("/type", response_model=list[ReadFoodTypeSchema])
+@common_router.get("/type", response_model=list[ReadFoodTypeSchema])
 async def get_food_type(db_sess: SessionDep):
     food_type = await get_food_type_service(db_sess=db_sess)
     return food_type
 
 # ============= Modifiers
 
-@router.post("/modifiers", status_code=201)
+@admin_router.post("/modifiers", status_code=201)
 async def create_modifier_category(db_sess: SessionDep, modifier_cat_data: WriteModifierCategorySchema):
     modifier_category = await create_modifier_category_service(db_sess=db_sess, modifier_cat_data=modifier_cat_data)
     return modifier_category
 
 
-@router.get("/modifiers", response_model=list[ReadModifierCategorySchema])
+@common_router.get("/modifiers", response_model=list[ReadModifierCategorySchema])
 async def get_modifier_category(db_sess: SessionDep):
     modifier_categories = await get_modifier_category_service(db_sess=db_sess)
     return modifier_categories
@@ -45,12 +45,13 @@ async def get_modifier_category(db_sess: SessionDep):
 
 # ============== Modifiers options
 
-@router.get("/modifiers/options")
+@common_router.get("/modifiers/options")
 async def get_modifier_options(db_sess: SessionDep):
     modifier_options = await get_modifier_options_service(db_sess=db_sess)
     return modifier_options
 
-@router.post("/modifiers/options")
+@admin_router.post("/modifiers/options")
 async def create_modifier_option(db_sess: SessionDep, modifier_option_data: WriteModifierOptionSchema):
     modifier_option = await create_modifier_option_service(db_sess=db_sess, modifier_option_data=modifier_option_data)
     return modifier_option
+

@@ -28,9 +28,15 @@ class ReadFoodSizeSchema(WriteFoodSizeSchema):
 
 class WriteFoodSchema(BaseModel):
     name: str
+    description: str
     food_sizes: list[WriteFoodSizeSchema]
     possible_food_modifiers: list[int] = []
     type_id: int
+
+class ReadFoodSchema(BaseModel):
+    name: str
+    description: str
+    food_size: list[ReadFoodSizeSchema]
 
 
 # =========== Modifier | Modifier Option =========

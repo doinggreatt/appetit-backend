@@ -79,7 +79,7 @@ async def get_modifier_category_service(*, db_sess: AsyncSession):
         return res.scalars().all()
 
     except Exception as e:
-        raise InternalError(e, __name__)
+        raise InternalError(e, module_name=__name__)
 
 async def get_modifier_options_service(*, db_sess: AsyncSession):
 
@@ -155,5 +155,3 @@ async def get_food_type_service(*, db_sess: AsyncSession):
 
     return food_types
 
-async def get_food(*, db_sess: AsyncSession):
-    stmt = select(Food)
