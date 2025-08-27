@@ -64,3 +64,15 @@ class ReadModifierCategoryOptionSchema(BaseModel):
     modifier_cat_id: int
     modifier_cat_name: str
     modifier_options: list[ReadSingleModifierOptionSchema] | list[None] = []
+
+
+# =============== Menu ===========================
+
+class WriteSingleMenuSchema(BaseModel):
+    food_id: int
+    priority_level: int
+
+class ReadSingleMenuSchema(BaseModel):
+    id: int
+    food_id: int
+    priority_level: int

@@ -1,9 +1,9 @@
 from fastapi import APIRouter, Depends
 
 from config import SessionDep
-from .schemas import WriteFoodSchema, WriteModifierCategorySchema, WriteModifierOptionSchema, WriteFoodTypeSchema
-from .schemas import ReadModifierCategorySchema, ReadFoodTypeSchema
-from .service import create_food_service, create_modifier_category_service, create_modifier_option_service, create_food_type_service
+from .schemas import WriteFoodSchema, WriteModifierCategorySchema, WriteModifierOptionSchema, WriteFoodTypeSchema, WriteSingleMenuSchema
+from .schemas import ReadModifierCategorySchema, ReadFoodTypeSchema, ReadSingleMenuSchema
+from .service import create_food_service, create_modifier_category_service, create_modifier_option_service, create_food_type_service, create_menu_service
 from .service import get_modifier_category_service, get_modifier_options_service, get_food_type_service
 
 common_router = APIRouter(tags=["Food"])
@@ -57,6 +57,7 @@ async def create_modifier_option(db_sess: SessionDep, modifier_option_data: Writ
 
 # ============ Menu
 
-@admin_router.post("/menu", description="Добавить существующее блюдо в меню")
-async def add_to_menu(db_sess: SessionDep):
-    ... # In progress...
+@admin_router.post("/menu", description="Добавить существующее блюдо в меню", response_model=ReadSingleMenuSchema)
+async def create_menu(db_sess: SessionDep, menu_data: WriteSingleMenuSchema):
+    menu = await create_menu_service(db_sess=db_sess, menu_data=menu_data)
+    return menu
