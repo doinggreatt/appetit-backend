@@ -4,7 +4,7 @@ from config import SessionDep
 from .schemas import WriteFoodSchema, WriteModifierCategorySchema, WriteModifierOptionSchema, WriteFoodTypeSchema
 from .schemas import ReadModifierCategorySchema, ReadFoodTypeSchema
 from .service import create_food_service, create_modifier_category_service, create_modifier_option_service, create_food_type_service
-from .service import get_modifier_category_service, get_modifier_options_service, get_food_type_service, get_food_service
+from .service import get_modifier_category_service, get_modifier_options_service, get_food_type_service
 
 common_router = APIRouter(tags=["Food"])
 admin_router = APIRouter(tags=["Food - admin"])
@@ -55,3 +55,8 @@ async def create_modifier_option(db_sess: SessionDep, modifier_option_data: Writ
     modifier_option = await create_modifier_option_service(db_sess=db_sess, modifier_option_data=modifier_option_data)
     return modifier_option
 
+# ============ Menu
+
+@admin_router.post("/menu", description="Добавить существующее блюдо в меню")
+async def add_to_menu(db_sess: SessionDep):
+    ... # In progress...
