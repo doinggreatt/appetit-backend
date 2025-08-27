@@ -16,27 +16,29 @@ class ReadFoodTypeSchema(BaseModel):
 
 # =================== FoodSize =========================
 
-class WriteFoodSizeSchema(BaseModel):
+class WriteSingleFoodSizeSchema(BaseModel):
     name: str
     is_new: bool | None = False
     price: float
 
-class ReadFoodSizeSchema(WriteFoodSizeSchema):
+class ReadSingleFoodSizeSchema(WriteSingleFoodSizeSchema):
     id: int
 
 # ==================== Food =============================
 
-class WriteFoodSchema(BaseModel):
+class WriteSingleFoodSchema(BaseModel):
     name: str
     description: str
-    food_sizes: list[WriteFoodSizeSchema]
+    food_sizes: list[WriteSingleFoodSizeSchema]
     possible_food_modifiers: list[int] = []
     type_id: int
 
-class ReadFoodSchema(BaseModel):
+class ReadSingleFoodSchema(BaseModel):
     name: str
     description: str
-    food_size: list[ReadFoodSizeSchema]
+    food_sizes: list[ReadSingleFoodSizeSchema]
+    food_modifiers: list["ReadModifierCategoryOptionSchema"]
+
 
 
 # =========== Modifier | Modifier Option =========
@@ -76,3 +78,9 @@ class ReadSingleMenuSchema(BaseModel):
     id: int
     food_id: int
     priority_level: int
+
+
+
+class ReadOneCategoryMenu(BaseModel):
+    cat_id: int
+    cat_name: str

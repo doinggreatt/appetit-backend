@@ -56,11 +56,13 @@ class FoodModifierOption(BaseMenuModel):
     modifier_option_id: Mapped[int] = mapped_column(ForeignKey("menu.modifier_option.id"))
     
     food: Mapped["Food"] = relationship(back_populates="modifier_options")
-    option: Mapped["ModifierOption"] = relationship()
+    option: Mapped["ModifierOption"] = relationship(back_populates="food_modifier_option")
 
 class ModifierCategory(BaseMenuModel): # соусы
     __tablename__ = "modifier_category"
     name: Mapped[BaseModelFieldTypes.str_255]
+
+    options: Mapped["ModifierOption"] = relationship(back_populates="modifier_category")
 
 
 class ModifierOption(BaseMenuModel):
@@ -68,3 +70,7 @@ class ModifierOption(BaseMenuModel):
     name: Mapped[BaseModelFieldTypes.str_255]
     modifier_category_id: Mapped[int] = mapped_column(ForeignKey("menu.modifier_category.id"))
     price: Mapped[float]
+
+    modifier_category: Mapped["ModifierCategory"] = relationship(back_populates="options")
+
+    food_modifier_option: Mapped["FoodModifierOption"] = relationship(back_populates="option")

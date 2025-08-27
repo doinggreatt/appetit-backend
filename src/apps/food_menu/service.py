@@ -6,8 +6,10 @@ from sqlalchemy.ext.asyncio import AsyncSession
 
 from config import get_module_logger
 from apps.common import InternalError
-from .schemas import WriteFoodSchema, WriteModifierCategorySchema, ReadModifierCategoryOptionSchema, \
-    ReadSingleModifierOptionSchema, WriteModifierOptionSchema, WriteFoodTypeSchema, WriteSingleMenuSchema
+from sqlalchemy.orm import selectinload
+
+from .schemas import WriteSingleFoodSchema, WriteModifierCategorySchema, ReadModifierCategoryOptionSchema, \
+    ReadSingleModifierOptionSchema, WriteModifierOptionSchema, WriteFoodTypeSchema, WriteSingleMenuSchema, ReadSingleFoodSchema, ReadSingleFoodSizeSchema
 from .models import Food, FoodSize, FoodType, FoodModifierOption, ModifierCategory, ModifierOption, Menu
 
 
@@ -25,12 +27,12 @@ async def _create(*, db_sess: AsyncSession, model_dump_data: dict[str, Any], mod
 
 
 
-async def create_food_service(*, db_sess: AsyncSession, food_data: WriteFoodSchema):
+async def create_food_service(*, db_sess: AsyncSession, food_data: WriteSingleFoodSchema):
+
 
     try:
         new_food_obj = Food(**food_data.model_dump(exclude=['possible_food_modifiers', 'food_sizes']))
         db_sess.add(new_food_obj)
-        await db_sess.commit()
         await db_sess.flush()
 
         for food_size_data in food_data.food_sizes:
@@ -43,6 +45,7 @@ async def create_food_service(*, db_sess: AsyncSession, food_data: WriteFoodSche
 
             db_sess.add(new_food_size_obj)
 
+
         for food_modifier_id in food_data.possible_food_modifiers:
             new_food_modifier_option_obj = FoodModifierOption(
                 food_id=new_food_obj.id,
@@ -51,7 +54,65 @@ async def create_food_service(*, db_sess: AsyncSession, food_data: WriteFoodSche
 
             db_sess.add(new_food_modifier_option_obj)
 
-        return new_food_obj
+        await db_sess.flush()
+
+        food_sizes = await db_sess.execute(
+            select(FoodSize).where(FoodSize.parent_id == new_food_obj.id)
+        )
+
+        food_sizes = food_sizes.scalars().all()
+
+        food_sizes = [ReadSingleFoodSizeSchema(
+            id=food_size.id,
+            name=food_size.name,
+            is_new=food_size.is_new,
+            price=food_size.price
+        ) for food_size in food_sizes]
+
+        food_modifier_options = await db_sess.execute(
+            select(FoodModifierOption)
+            .where(FoodModifierOption.food_id == new_food_obj.id)
+            .options(selectinload(FoodModifierOption.option).selectinload(ModifierOption.modifier_category))
+        )
+
+        food_modifier_options = food_modifier_options.scalars().all()
+
+        output_food_modifiers = list()
+
+        for food_modifier_option in food_modifier_options:
+            modifier_option = ReadSingleModifierOptionSchema(
+                id=food_modifier_option.option.id,
+                name=food_modifier_option.option.name,
+                price=food_modifier_option.option.price
+
+            )
+
+            if food_modifier_option.option.modifier_category_id not in [item["modifier_cat_id"] for item in output_food_modifiers]:
+                output_food_modifiers.append(
+                    {
+                        "modifier_cat_id": food_modifier_option.option.modifier_category_id,
+                        "modifier_cat_name": food_modifier_option.option.modifier_category.name,
+                        "modifier_options": [modifier_option]
+                    }
+                )
+            else:
+
+                output_food_modifier_item = next((_ for _ in output_food_modifiers if _["modifier_cat_id"]  == food_modifier_option.option.modifier_category_id), None)
+
+                assert output_food_modifier_item
+
+                output_food_modifier_item["modifier_options"].append(
+                    modifier_option
+                )
+
+        resp = ReadSingleFoodSchema(
+            name=new_food_obj.name,
+            description=new_food_obj.description,
+            food_sizes=food_sizes,
+            food_modifiers=output_food_modifiers
+        )
+
+        return resp
 
     except Exception as e:
         raise InternalError(e, module_name=__name__)
