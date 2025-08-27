@@ -33,6 +33,7 @@ class WriteSingleFoodSchema(BaseModel):
     possible_food_modifiers: list[int] = []
     type_id: int
 
+
 class ReadSingleFoodSchema(BaseModel):
     name: str
     description: str
@@ -82,7 +83,10 @@ class ReadSingleMenuSchema(BaseModel):
     priority_level: int
 
 
+class ReadAllMenu(BaseModel):
+    food_type_id: int
+    food_type_name: str
+    foods: list[ReadSingleFoodSchema]
 
-class ReadOneCategoryMenu(BaseModel):
-    cat_id: int
-    cat_name: str
+
+

@@ -9,7 +9,8 @@ from apps.common import InternalError
 from sqlalchemy.orm import selectinload
 
 from .schemas import WriteSingleFoodSchema, WriteModifierCategorySchema, ReadModifierCategoryOptionSchema, \
-    ReadSingleModifierOptionSchema, WriteModifierOptionSchema, WriteFoodTypeSchema, WriteSingleMenuSchema, ReadSingleFoodSchema, ReadSingleFoodSizeSchema
+    ReadSingleModifierOptionSchema, WriteModifierOptionSchema, WriteFoodTypeSchema, WriteSingleMenuSchema, \
+    ReadSingleFoodSchema, ReadSingleFoodSizeSchema, ReadAllMenu
 from .models import Food, FoodSize, FoodType, FoodModifierOption, ModifierCategory, ModifierOption, Menu
 
 
@@ -25,7 +26,7 @@ async def _create(*, db_sess: AsyncSession, model_dump_data: dict[str, Any], mod
 
     return new_obj
 
-async def _get_food_detail_by_food_obj(*, db_sess: AsyncSession, food_id: int):
+async def _get_food_detail_by_food_id(*, db_sess: AsyncSession, food_id: int) -> ReadSingleFoodSchema:
 
     try:
 
@@ -128,7 +129,7 @@ async def create_food_service(*, db_sess: AsyncSession, food_data: WriteSingleFo
 
         await db_sess.flush()
 
-        resp = await _get_food_detail_by_food_obj(db_sess=db_sess, food_id=new_food_obj.id)
+        resp = await _get_food_detail_by_food_id(db_sess=db_sess, food_id=new_food_obj.id)
 
         return resp
 
@@ -257,8 +258,37 @@ async def get_menu_service(*, db_sess: AsyncSession):
         menu = await db_sess.execute(select(Menu))
         menu = menu.scalars().all()
 
+        output = list()
+
         for _menu in menu:
             food_id = _menu.food_id
+
+            food_detail = await _get_food_detail_by_food_id(db_sess=db_sess, food_id=food_id)
+
+            if food_detail.food_type_id not in [item["food_type_id"] for item in output]:
+                output.append(
+                    {
+                        "food_type_id": food_detail.food_type_id,
+                        "food_type_name": food_detail.food_type_name,
+                        "foods": [food_detail]
+                    }
+                )
+            else:
+
+                output_item = next((_ for _ in output if _["food_type_id"]  == food_detail.food_type_id), None)
+                output_item["foods"].append(food_detail)
+
+            output = [ReadAllMenu(
+                food_type_name=item["food_type_name"],
+                food_type_id=item["food_type_id"],
+                foods=item["foods"]
+                ) for item in output]
+
+        return output
+
+
+
+
 
 
 

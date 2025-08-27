@@ -4,7 +4,7 @@ from config import SessionDep
 from .schemas import WriteSingleFoodSchema, WriteModifierCategorySchema, WriteModifierOptionSchema, WriteFoodTypeSchema, WriteSingleMenuSchema
 from .schemas import ReadModifierCategorySchema, ReadFoodTypeSchema, ReadSingleMenuSchema, ReadSingleFoodSchema
 from .service import create_food_service, create_modifier_category_service, create_modifier_option_service, create_food_type_service, create_menu_service
-from .service import get_modifier_category_service, get_modifier_options_service, get_food_type_service
+from .service import get_modifier_category_service, get_modifier_options_service, get_food_type_service, get_menu_service
 
 common_router = APIRouter(tags=["Food"])
 admin_router = APIRouter(tags=["Food - admin"])
@@ -63,4 +63,6 @@ async def create_menu(db_sess: SessionDep, menu_data: WriteSingleMenuSchema):
     return menu
 
 @common_router.get("/menu", description="Получить меню")
-async def get_menu(db_sess: SessionDep):...
+async def get_menu(db_sess: SessionDep):
+    resp = await get_menu_service(db_sess=db_sess)
+    return resp
