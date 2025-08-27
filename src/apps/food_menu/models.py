@@ -31,7 +31,7 @@ class Food(BaseMenuModel):
     name: Mapped[BaseModelFieldTypes.str_255]
     type_id: Mapped[int] = mapped_column(ForeignKey("menu.food_type.id"))
 
-    food_type: Mapped["FoodType"] = relationship(back_populates="foods")
+    food_type: Mapped["FoodType"] = relationship(back_populates="foods", lazy="selectin")
     sizes: Mapped["FoodSize"] = relationship(back_populates="parent_food")
     modifier_options: Mapped["FoodModifierOption"] = relationship(back_populates="food")
     description: Mapped[BaseModelFieldTypes.text]

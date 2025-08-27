@@ -25,39 +25,16 @@ async def _create(*, db_sess: AsyncSession, model_dump_data: dict[str, Any], mod
 
     return new_obj
 
-
-
-async def create_food_service(*, db_sess: AsyncSession, food_data: WriteSingleFoodSchema):
-
+async def _get_food_detail_by_food_obj(*, db_sess: AsyncSession, food_id: int):
 
     try:
-        new_food_obj = Food(**food_data.model_dump(exclude=['possible_food_modifiers', 'food_sizes']))
-        db_sess.add(new_food_obj)
-        await db_sess.flush()
-
-        for food_size_data in food_data.food_sizes:
-            new_food_size_obj = FoodSize(
-                name=food_size_data.name,
-                parent_id=new_food_obj.id,
-                is_new=food_size_data.is_new,
-                price=food_size_data.price
-            )
-
-            db_sess.add(new_food_size_obj)
 
 
-        for food_modifier_id in food_data.possible_food_modifiers:
-            new_food_modifier_option_obj = FoodModifierOption(
-                food_id=new_food_obj.id,
-                modifier_option_id=food_modifier_id
-            )
-
-            db_sess.add(new_food_modifier_option_obj)
-
-        await db_sess.flush()
+        food = await db_sess.execute(select(Food).where(Food.id == food_id))
+        food = food.scalars().one_or_none()
 
         food_sizes = await db_sess.execute(
-            select(FoodSize).where(FoodSize.parent_id == new_food_obj.id)
+            select(FoodSize).where(FoodSize.parent_id == food.id)
         )
 
         food_sizes = food_sizes.scalars().all()
@@ -71,7 +48,7 @@ async def create_food_service(*, db_sess: AsyncSession, food_data: WriteSingleFo
 
         food_modifier_options = await db_sess.execute(
             select(FoodModifierOption)
-            .where(FoodModifierOption.food_id == new_food_obj.id)
+            .where(FoodModifierOption.food_id == food.id)
             .options(selectinload(FoodModifierOption.option).selectinload(ModifierOption.modifier_category))
         )
 
@@ -106,11 +83,52 @@ async def create_food_service(*, db_sess: AsyncSession, food_data: WriteSingleFo
                 )
 
         resp = ReadSingleFoodSchema(
-            name=new_food_obj.name,
-            description=new_food_obj.description,
+            name=food.name,
+            description=food.description,
             food_sizes=food_sizes,
-            food_modifiers=output_food_modifiers
+            food_modifiers=output_food_modifiers,
+            food_type_id=food.food_type.id,
+            food_type_name=food.food_type.name,
         )
+
+        return resp
+
+    except Exception as e:
+        raise InternalError(e, module_name=__name__)
+
+
+
+
+async def create_food_service(*, db_sess: AsyncSession, food_data: WriteSingleFoodSchema):
+
+
+    try:
+        new_food_obj = Food(**food_data.model_dump(exclude=['possible_food_modifiers', 'food_sizes']))
+        db_sess.add(new_food_obj)
+        await db_sess.flush()
+
+        for food_size_data in food_data.food_sizes:
+            new_food_size_obj = FoodSize(
+                name=food_size_data.name,
+                parent_id=new_food_obj.id,
+                is_new=food_size_data.is_new,
+                price=food_size_data.price
+            )
+
+            db_sess.add(new_food_size_obj)
+
+
+        for food_modifier_id in food_data.possible_food_modifiers:
+            new_food_modifier_option_obj = FoodModifierOption(
+                food_id=new_food_obj.id,
+                modifier_option_id=food_modifier_id
+            )
+
+            db_sess.add(new_food_modifier_option_obj)
+
+        await db_sess.flush()
+
+        resp = await _get_food_detail_by_food_obj(db_sess=db_sess, food_id=new_food_obj.id)
 
         return resp
 
@@ -230,5 +248,20 @@ async def create_menu_service(*, db_sess: AsyncSession, menu_data: WriteSingleMe
         await db_sess.flush()
 
         return menu
+    except Exception as e:
+        raise InternalError(e, module_name=__name__)
+
+
+async def get_menu_service(*, db_sess: AsyncSession):
+    try:
+        menu = await db_sess.execute(select(Menu))
+        menu = menu.scalars().all()
+
+        for _menu in menu:
+            food_id = _menu.food_id
+
+
+
+
     except Exception as e:
         raise InternalError(e, module_name=__name__)

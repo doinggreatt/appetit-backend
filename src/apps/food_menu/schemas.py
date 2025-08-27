@@ -36,6 +36,8 @@ class WriteSingleFoodSchema(BaseModel):
 class ReadSingleFoodSchema(BaseModel):
     name: str
     description: str
+    food_type_id: int
+    food_type_name: str
     food_sizes: list[ReadSingleFoodSizeSchema]
     food_modifiers: list["ReadModifierCategoryOptionSchema"]
 

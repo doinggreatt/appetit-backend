@@ -63,5 +63,4 @@ async def create_menu(db_sess: SessionDep, menu_data: WriteSingleMenuSchema):
     return menu
 
 @common_router.get("/menu", description="Получить меню")
-async def get_menu(db_sess: SessionDep):
-    ...
+async def get_menu(db_sess: SessionDep):...
