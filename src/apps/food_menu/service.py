@@ -1,13 +1,16 @@
 import logging
+import os
+import shutil
+
+from fastapi import HTTPException, UploadFile
 from typing import Any
 
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
-
-from config import get_module_logger
-from apps.contrib import InternalError
 from sqlalchemy.orm import selectinload
 
+from config import get_module_logger, UPLOAD_DIR
+from apps.contrib import InternalError
 from .schemas import WriteSingleFoodSchema, WriteModifierCategorySchema, ReadModifierCategoryOptionSchema, \
     ReadSingleModifierOptionSchema, WriteModifierOptionSchema, WriteFoodTypeSchema, WriteSingleMenuSchema, \
     ReadSingleFoodSchema, ReadSingleFoodSizeSchema, ReadAllMenu
@@ -287,12 +290,38 @@ async def get_menu_service(*, db_sess: AsyncSession):
 
         return output
 
-
-
-
-
-
-
-
     except Exception as e:
         raise InternalError(e, module_name=__name__)
+
+async def upload_file_by_id_service(*, db_sess: AsyncSession, model: Any, id: int, ext: str,
+                                    upload_file: UploadFile, filepath_prefix: str,
+                                    model_filepath_attr_name: str):
+    stmt = select(model).where(model.id == id)
+    res = await db_sess.execute(stmt)
+    model_obj = res.scalars().one_or_none()
+
+    if not res:
+        raise HTTPException(status_code=404, detail="not found")
+
+    dir_to_upload = os.path.join(UPLOAD_DIR, filepath_prefix)
+    os.makedirs(dir_to_upload, exist_ok=True)
+
+    filename = f"{id}.{ext}"
+
+    filepath = os.path.join(dir_to_upload, filename)
+
+    with open(filepath, "wb") as buffer:
+        shutil.copyfileobj(upload_file.file, buffer)
+
+
+    setattr(model_obj, model_filepath_attr_name, filepath)
+
+    await db_sess.commit()
+    await db_sess.refresh(model_obj)
+
+    return {"id": model_obj.id, "image_url": getattr(model_obj, model_filepath_attr_name)}
+
+
+
+
+

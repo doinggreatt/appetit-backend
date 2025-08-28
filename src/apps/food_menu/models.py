@@ -36,6 +36,8 @@ class Food(BaseMenuModel):
     modifier_options: Mapped["FoodModifierOption"] = relationship(back_populates="food")
     description: Mapped[BaseModelFieldTypes.text]
 
+    image_path: Mapped[str] = mapped_column(nullable=True)
+
 class FoodSize(BaseMenuModel):
     __tablename__ = "food_size"
 

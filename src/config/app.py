@@ -1,4 +1,7 @@
-from fastapi import FastAPI,Request
+import os
+
+from fastapi import FastAPI, Request
+from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.openapi.utils import get_openapi
 from fastapi.responses import JSONResponse
@@ -8,8 +11,14 @@ from authx.exceptions import MissingTokenError
 
 from apps import api_router
 
+UPLOAD_DIR = "/app/media"
+
+
 app = FastAPI()
 app.include_router(api_router)
+os.makedirs(UPLOAD_DIR, exist_ok=True)
+
+app.mount("/media", StaticFiles(directory="/app/media"), name="media")
 
 def custom_openapi():
     if app.openapi_schema:

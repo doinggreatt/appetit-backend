@@ -1,10 +1,12 @@
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter, Depends, UploadFile, File, HTTPException
 
 from config import SessionDep
+from .models import Food
 from .schemas import WriteSingleFoodSchema, WriteModifierCategorySchema, WriteModifierOptionSchema, WriteFoodTypeSchema, WriteSingleMenuSchema
 from .schemas import ReadModifierCategorySchema, ReadFoodTypeSchema, ReadSingleMenuSchema, ReadSingleFoodSchema
 from .service import create_food_service, create_modifier_category_service, create_modifier_option_service, create_food_type_service, create_menu_service
 from .service import get_modifier_category_service, get_modifier_options_service, get_food_type_service, get_menu_service
+from .service import upload_file_by_id_service
 
 common_router = APIRouter(tags=["Food"])
 admin_router = APIRouter(tags=["Food - admin"])
@@ -16,6 +18,22 @@ admin_router = APIRouter(tags=["Food - admin"])
 async def create_food(db_sess: SessionDep, food_data: WriteSingleFoodSchema):
     food = await create_food_service(db_sess=db_sess, food_data=food_data)
     return food
+
+@admin_router.post("/{food_id}/upload-image")
+async def upload_food_image(
+        food_id:int,
+        db_sess: SessionDep,
+        file: UploadFile = File(...)
+):
+    ext = file.filename.split(".")[-1].lower()
+    if ext not in {"jpg", "jpeg", "png", "webp"}:
+        raise HTTPException(status_code=400, detail="Invalid file type")
+
+    resp = await upload_file_by_id_service(db_sess=db_sess, model=Food, id=food_id, ext=ext, upload_file=file, filepath_prefix="foods",
+                                    model_filepath_attr_name="image_path")
+
+    return resp
+
 
 
 # =============== Food Type
