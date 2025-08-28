@@ -14,7 +14,7 @@ class BaseMenuModel(Base):
 class Menu(BaseMenuModel):
     __tablename__ = "menu"
 
-    food_id: Mapped[int] = mapped_column(ForeignKey("menu.food_type.id"))
+    food_id: Mapped[int] = mapped_column(ForeignKey("menu.food.id"))
     priority_level: Mapped[int]  = mapped_column(nullable=True)
 
 

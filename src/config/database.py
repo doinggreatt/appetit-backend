@@ -81,6 +81,7 @@ from sqlalchemy import text
 schemas = [
     "users",
     "menu",
+    "restaurant",
 ]
 
 def create_schemas():
