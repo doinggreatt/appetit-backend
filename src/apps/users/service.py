@@ -1,6 +1,6 @@
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select
-from fastapi import HTTPException
+from fastapi import HTTPException, Request
 
 from .auth_config import authx
 from .schemas import UserWriteSchema, AccessTokenLoginSchema
@@ -11,7 +11,7 @@ async def get_user_by(
         *,
         db_sess: AsyncSession,
         field: UserLookupField,
-        value: str | int
+        value: str | int | Request
 ) -> User | None:
     stmt = None
 
@@ -21,7 +21,12 @@ async def get_user_by(
         case UserLookupField.ID:
             stmt = select(User).where(User.id == int(value))
         case UserLookupField.TOKEN:
-            sub = authx.verify_token(token=value)
+            sub = authx.verify_token(value).sub
+            stmt = select(User).where(User.id == int(sub))
+        case UserLookupField.REQUEST:
+            token = await authx.get_access_token_from_request(value)
+            sub = authx.verify_token(token).sub
+            print(sub)
             stmt = select(User).where(User.id == int(sub))
         case _:
             raise ValueError(f"unsupported lookup: {field}")
@@ -40,7 +45,7 @@ async def create(*, db_sess: AsyncSession, user_data: UserWriteSchema) -> tuple[
 
         raise HTTPException(
             status_code=400,
-            detail="this username is already taken"
+            detail="this email is already taken"
         )
 
     try:
@@ -56,7 +61,7 @@ async def create(*, db_sess: AsyncSession, user_data: UserWriteSchema) -> tuple[
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e))
 
-async def authorize(*, db_sess: AsyncSession, login_data: AccessTokenLoginSchema) -> dict[str, str,]:
+async def authorize(*, db_sess: AsyncSession, login_data: AccessTokenLoginSchema) -> dict[str, str]:
     """Authorizes user"""
     user = await get_user_by(db_sess=db_sess, field=UserLookupField.EMAIL, value=login_data.email)
 
@@ -65,3 +70,11 @@ async def authorize(*, db_sess: AsyncSession, login_data: AccessTokenLoginSchema
         return {'access_token': access_token}
 
     raise HTTPException(status_code=401, detail="wrong credentials")
+
+async def me(*, db_sess: AsyncSession, req: Request) -> User | HTTPException:
+    user = await get_user_by(db_sess=db_sess, field=UserLookupField.REQUEST, value=req)
+
+    if not user:
+        raise HTTPException(status_code=404, detail="not found")
+
+    return user

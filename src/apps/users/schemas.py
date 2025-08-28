@@ -21,7 +21,8 @@ class UserReadSchema(BaseModel):
     id: int
     email: EmailStr
     first_name: str 
-    last_name: str 
+    last_name: str
+    is_admin: bool
     
     
 class UserUpdateSchema(BaseModel):

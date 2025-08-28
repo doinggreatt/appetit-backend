@@ -4,3 +4,4 @@ class UserLookupField(Enum):
     ID = "id"
     EMAIL = "email"
     TOKEN = "token"
+    REQUEST = "request"

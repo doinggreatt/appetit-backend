@@ -1,10 +1,10 @@
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter, Depends, Request
 from sqlalchemy import select
 
 from config import SessionDep
 from .models import User
 from .schemas import UserWriteSchema, UserReadSchema, AccessTokenLoginSchema
-from .service import create, authorize
+from .service import create, authorize, me
 from .depends import admin_role_required
 
 router = APIRouter(prefix="/users")
@@ -28,3 +28,9 @@ async def authorize_user(db_sess: SessionDep, login_data: AccessTokenLoginSchema
     access_token = await authorize(db_sess=db_sess, login_data=login_data)
 
     return access_token
+
+@router.get("/me", response_model=UserReadSchema)
+async def user_me(db_sess: SessionDep, req: Request):
+    user = await me(db_sess=db_sess, req=req)
+    return user
+
