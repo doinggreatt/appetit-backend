@@ -36,6 +36,7 @@ class WriteSingleFoodSchema(BaseModel):
 
 class ReadSingleFoodSchema(BaseModel):
     name: str
+    id: int
     description: str
     food_type_id: int
     food_type_name: str
