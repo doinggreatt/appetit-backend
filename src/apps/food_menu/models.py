@@ -34,6 +34,7 @@ class Food(BaseMenuModel):
     food_type: Mapped["FoodType"] = relationship(back_populates="foods", lazy="selectin")
     sizes: Mapped["FoodSize"] = relationship(back_populates="parent_food")
     modifier_options: Mapped["FoodModifierOption"] = relationship(back_populates="food")
+    order_food: Mapped["OrderFood"] = relationship(back_populates="foods")
     description: Mapped[BaseModelFieldTypes.text]
 
 class FoodSize(BaseMenuModel):
