@@ -84,6 +84,7 @@ async def _get_food_detail_by_food_id(*, db_sess: AsyncSession, food_id: int) ->
                 )
 
         resp = ReadSingleFoodSchema(
+            id=food_id,
             name=food.name,
             description=food.description,
             food_sizes=food_sizes,
