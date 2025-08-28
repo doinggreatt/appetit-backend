@@ -5,7 +5,7 @@ from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from config import get_module_logger
-from apps.common import InternalError
+from apps.contrib import InternalError
 from sqlalchemy.orm import selectinload
 
 from .schemas import WriteSingleFoodSchema, WriteModifierCategorySchema, ReadModifierCategoryOptionSchema, \
