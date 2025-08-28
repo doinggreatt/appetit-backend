@@ -1,0 +1,4555 @@
+{
+  "url": "https://appfood1.kz",
+  "scraped_at": "2025-08-21 15:23:45",
+  "sections": [
+    {
+      "id": "422",
+      "title": "Комбо",
+      "restriction": "",
+      "products": [
+        {
+          "id": "3235",
+          "name": "Комбо для ОДНОГО",
+          "description": "В комбо: фирменная шаурма, картошка фри и айран. Просто, вкусно, сытно.",
+          "price": {
+            "price": 2490,
+            "currency": "₸",
+            "is_range": false,
+            "original_text": "2490 ₸"
+          },
+          "size": "",
+          "url": "https://appfood1.kz/product/3235-kombo-dlya-odnogo",
+          "images": [
+            {
+              "src": "https://cdn-kz11.foodpicasso.com/assets/70/a6/97/c0/70a697c03a6f502b2d3ba556e9447691---jpeg_420x420:whitepadding15_94310_convert.webp",
+              "low": "https://cdn-kz11.foodpicasso.com/assets/70/a6/97/c0/70a697c03a6f502b2d3ba556e9447691---jpeg_37x37:whitepadding1:quality20_8f789_convert.webp",
+              "high": "https://cdn-kz11.foodpicasso.com/assets/70/a6/97/c0/70a697c03a6f502b2d3ba556e9447691---jpeg_1100_1e6e0_convert.webp",
+              "ratio": "99.96",
+              "local_path": "output/images/70a697c03a6f502b2d3ba556e9447691---jpeg_420x420:whitepadding15_94310_convert.webp"
+            }
+          ],
+          "modifiers": [
+            {
+              "title": "Выберите размер",
+              "type": "sizes",
+              "required": 1,
+              "options": [
+                {
+                  "id": null,
+                  "name": "",
+                  "price": 24900000,
+                  "price_formatted": "2490 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 0,
+                  "default_amount": 0
+                }
+              ]
+            }
+          ],
+          "additional_prices": [
+            {
+              "price": 24900000,
+              "priceFormatted": "2490 ₸",
+              "isPartial": false,
+              "partialConfig": null,
+              "size": "",
+              "sizeFormatted": "",
+              "price_formatted": "2490 ₸",
+              "is_partial": false,
+              "partial_config": null,
+              "size_formatted": ""
+            }
+          ],
+          "scraped_at": "2025-08-21 15:23:45"
+        },
+        {
+          "id": "3249",
+          "name": "Комбо для ДВОИХ",
+          "description": "В комбо: 2 фирменные средние шаурмы, порция фри и Pepsi 1 л. Отличный вариант на двоих.",
+          "price": {
+            "price": 4490,
+            "currency": "₸",
+            "is_range": false,
+            "original_text": "4490 ₸"
+          },
+          "size": "",
+          "url": "https://appfood1.kz/product/3249-kombo-dlya-dvoih",
+          "images": [
+            {
+              "src": "https://cdn-kz11.foodpicasso.com/assets/4d/ad/1d/17/4dad1d176463cb27c20ff20a6c0a961f---jpeg_420x420:whitepadding15_94310_convert.webp",
+              "low": "https://cdn-kz11.foodpicasso.com/assets/4d/ad/1d/17/4dad1d176463cb27c20ff20a6c0a961f---jpeg_37x37:whitepadding1:quality20_8f789_convert.webp",
+              "high": "https://cdn-kz11.foodpicasso.com/assets/4d/ad/1d/17/4dad1d176463cb27c20ff20a6c0a961f---jpeg_1100_1e6e0_convert.webp",
+              "ratio": "98.75",
+              "local_path": "output/images/4dad1d176463cb27c20ff20a6c0a961f---jpeg_420x420:whitepadding15_94310_convert.webp"
+            }
+          ],
+          "modifiers": [
+            {
+              "title": "Выберите размер",
+              "type": "sizes",
+              "required": 1,
+              "options": [
+                {
+                  "id": null,
+                  "name": "",
+                  "price": 44900000,
+                  "price_formatted": "4490 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 0,
+                  "default_amount": 0
+                }
+              ]
+            }
+          ],
+          "additional_prices": [
+            {
+              "price": 44900000,
+              "priceFormatted": "4490 ₸",
+              "isPartial": false,
+              "partialConfig": null,
+              "size": "",
+              "sizeFormatted": "",
+              "price_formatted": "4490 ₸",
+              "is_partial": false,
+              "partial_config": null,
+              "size_formatted": ""
+            }
+          ],
+          "scraped_at": "2025-08-21 15:23:45"
+        },
+        {
+          "id": "3250",
+          "name": "Комбо для КОМПАНИИ",
+          "description": "В комбо: 4 средние шаурмы на выбор, 2 порции фри и 2 напитка на Ваш выбор. Собери идеальное комбо!",
+          "price": {
+            "price": 8900,
+            "currency": "₸",
+            "is_range": true,
+            "original_text": "от 8900 ₸"
+          },
+          "size": "",
+          "url": "https://appfood1.kz/product/3250-kombo-dlya-kompanii",
+          "images": [
+            {
+              "src": "https://cdn-kz11.foodpicasso.com/assets/3b/5c/97/fa/3b5c97fa3eadd6ad3bde3b63fe792841---jpeg_420x420:whitepadding15_94310_convert.webp",
+              "low": "https://cdn-kz11.foodpicasso.com/assets/3b/5c/97/fa/3b5c97fa3eadd6ad3bde3b63fe792841---jpeg_37x37:whitepadding1:quality20_8f789_convert.webp",
+              "high": "https://cdn-kz11.foodpicasso.com/assets/3b/5c/97/fa/3b5c97fa3eadd6ad3bde3b63fe792841---jpeg_1100_1e6e0_convert.webp",
+              "ratio": "100.00",
+              "local_path": "output/images/3b5c97fa3eadd6ad3bde3b63fe792841---jpeg_420x420:whitepadding15_94310_convert.webp"
+            }
+          ],
+          "modifiers": [
+            {
+              "title": "Выберите размер",
+              "type": "sizes",
+              "required": 1,
+              "options": [
+                {
+                  "id": null,
+                  "name": "",
+                  "price": 89000000,
+                  "price_formatted": "8900 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 0,
+                  "default_amount": 0
+                }
+              ]
+            },
+            {
+              "title": "Выбери шаурму",
+              "type": "many_many",
+              "required": false,
+              "options": [
+                {
+                  "id": 3228,
+                  "name": "Мраморная",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "https://cdn-kz11.foodpicasso.com/assets/dc/20/66/6e/dc20666ed00e80a0c07701b16407832b---jpg_160x160_b3903_convert.webp",
+                  "min": 0,
+                  "max": 4,
+                  "default_amount": 0
+                },
+                {
+                  "id": 3216,
+                  "name": "Куриная",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "https://cdn-kz11.foodpicasso.com/assets/40/8d/c0/3d/408dc03d145ecc2793539038663b7033---jpg_160x160_b3903_convert.webp",
+                  "min": 0,
+                  "max": 4,
+                  "default_amount": 0
+                },
+                {
+                  "id": 3236,
+                  "name": "Классическая",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "https://cdn-kz11.foodpicasso.com/assets/35/e4/a5/67/35e4a567339e46ce53265a60de216043---jpg_160x160_b3903_convert.webp",
+                  "min": 0,
+                  "max": 4,
+                  "default_amount": 0
+                },
+                {
+                  "id": 3206,
+                  "name": "Фирменная",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "https://cdn-kz11.foodpicasso.com/assets/1e/e3/29/71/1ee32971b5960ea6bc42d602431bff97---jpg_160x160_b3903_convert.webp",
+                  "min": 0,
+                  "max": 4,
+                  "default_amount": 0
+                }
+              ],
+              "min": 4,
+              "max": 4,
+              "section_id": 535
+            },
+            {
+              "title": "Выбери напиток",
+              "type": "many_many",
+              "required": false,
+              "options": [
+                {
+                  "id": 3274,
+                  "name": "Морс смородина 1,0л",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "https://cdn-kz11.foodpicasso.com/assets/2025/06/04/53f3892d38347a229af494c4360cb980---jpeg_160x160_b3903_convert.webp",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 3275,
+                  "name": "Лимонный сок 1л",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "https://cdn-kz11.foodpicasso.com/assets/2025/06/04/7a4e4efb528b2102d6b42e4107b58969---png_160x160_b3903_convert.webp",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 3276,
+                  "name": "Пепси 1,0л",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "https://cdn-kz11.foodpicasso.com/assets/2025/06/04/83dee23ceeece8bea8a7af9882304647---jpeg_160x160_b3903_convert.webp",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 3273,
+                  "name": "Пиала 1л",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "https://cdn-kz11.foodpicasso.com/assets/2025/06/04/f22a4e61258b658e35cd8eac1367468a---png_160x160_b3903_convert.webp",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                }
+              ],
+              "min": 2,
+              "max": 2,
+              "section_id": 544
+            }
+          ],
+          "additional_prices": [
+            {
+              "price": 89000000,
+              "priceFormatted": "8900 ₸",
+              "isPartial": false,
+              "partialConfig": null,
+              "size": "",
+              "sizeFormatted": "",
+              "price_formatted": "8900 ₸",
+              "is_partial": false,
+              "partial_config": null,
+              "size_formatted": ""
+            }
+          ],
+          "scraped_at": "2025-08-21 15:23:46"
+        }
+      ],
+      "product_count": 3
+    },
+    {
+      "id": "424",
+      "title": "Блюда",
+      "restriction": "",
+      "products": [
+        {
+          "id": "2337",
+          "name": "Фирменная Средняя шаурма",
+          "description": "Тонкий лаваш, сочные кусочки говядины, картофель фри, лук, помидор, белый соус",
+          "price": {
+            "price": 1990,
+            "currency": "₸",
+            "is_range": true,
+            "original_text": "от 1990 ₸"
+          },
+          "size": "",
+          "url": "https://appfood1.kz/product/2337-firmennaya-srednyaya-shaurma",
+          "images": [
+            {
+              "src": "https://cdn-kz11.foodpicasso.com/assets/82/db/8d/dd/82db8dddfea753418a3b60376d067e4c---jpg_420x420:whitepadding15_94310_convert.webp",
+              "low": "https://cdn-kz11.foodpicasso.com/assets/82/db/8d/dd/82db8dddfea753418a3b60376d067e4c---jpg_37x37:whitepadding1:quality20_8f789_convert.webp",
+              "high": "https://cdn-kz11.foodpicasso.com/assets/82/db/8d/dd/82db8dddfea753418a3b60376d067e4c---jpg_1100_1e6e0_convert.webp",
+              "ratio": "100.00",
+              "local_path": "output/images/82db8dddfea753418a3b60376d067e4c---jpg_420x420:whitepadding15_94310_convert.webp"
+            }
+          ],
+          "modifiers": [
+            {
+              "title": "Выберите размер",
+              "type": "sizes",
+              "required": 1,
+              "options": [
+                {
+                  "id": null,
+                  "name": "",
+                  "price": 19900000,
+                  "price_formatted": "1990 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 0,
+                  "default_amount": 0
+                }
+              ]
+            },
+            {
+              "title": "Добавь вкуса",
+              "type": "many_many",
+              "required": false,
+              "options": [
+                {
+                  "id": 2438,
+                  "name": "- соус Горчичный во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2334,
+                  "name": "- соус Барбекю во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2452,
+                  "name": "- соус Сырный во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2317,
+                  "name": "- перчики острые во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2304,
+                  "name": "- соус Томатный во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2974,
+                  "name": "- соус Острый во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2465,
+                  "name": "- соус Чесночный во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                }
+              ],
+              "min": 0,
+              "max": 12,
+              "section_id": 428
+            },
+            {
+              "title": "Убери лишнее",
+              "type": "many_many",
+              "required": false,
+              "options": [
+                {
+                  "id": 2348,
+                  "name": "БЕЗ ФРИ",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2407,
+                  "name": "БЕЗ МЯСА",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2361,
+                  "name": "БЕЗ ЛУКА",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2474,
+                  "name": "БЕЗ МАЙОНЕЗА",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2500,
+                  "name": "БЕЗ ПОМИДОР",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                }
+              ],
+              "min": 0,
+              "max": 6,
+              "section_id": 406
+            }
+          ],
+          "additional_prices": [
+            {
+              "price": 19900000,
+              "priceFormatted": "1990 ₸",
+              "isPartial": false,
+              "partialConfig": null,
+              "size": "",
+              "sizeFormatted": "",
+              "price_formatted": "1990 ₸",
+              "is_partial": false,
+              "partial_config": null,
+              "size_formatted": ""
+            }
+          ],
+          "scraped_at": "2025-08-21 15:23:46"
+        },
+        {
+          "id": "2395",
+          "name": "Фирменная Большая шаурма",
+          "description": "Тонкий лаваш, сочные кусочки говядины, картофель фри, лук, помидор, белый соус",
+          "price": {
+            "price": 2990,
+            "currency": "₸",
+            "is_range": true,
+            "original_text": "от 2990 ₸"
+          },
+          "size": "",
+          "url": "https://appfood1.kz/product/2395-firmennaya-bolshaya-shaurma",
+          "images": [
+            {
+              "src": "https://cdn-kz11.foodpicasso.com/assets/e7/61/78/12/e7617812f2209d6997db371e9ac46975---jpg_420x420:whitepadding15_94310_convert.webp",
+              "low": "https://cdn-kz11.foodpicasso.com/assets/e7/61/78/12/e7617812f2209d6997db371e9ac46975---jpg_37x37:whitepadding1:quality20_8f789_convert.webp",
+              "high": "https://cdn-kz11.foodpicasso.com/assets/e7/61/78/12/e7617812f2209d6997db371e9ac46975---jpg_1100_1e6e0_convert.webp",
+              "ratio": "100.00",
+              "local_path": "output/images/e7617812f2209d6997db371e9ac46975---jpg_420x420:whitepadding15_94310_convert.webp"
+            }
+          ],
+          "modifiers": [
+            {
+              "title": "Выберите размер",
+              "type": "sizes",
+              "required": 1,
+              "options": [
+                {
+                  "id": null,
+                  "name": "",
+                  "price": 29900000,
+                  "price_formatted": "2990 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 0,
+                  "default_amount": 0
+                }
+              ]
+            },
+            {
+              "title": "Добавь вкуса",
+              "type": "many_many",
+              "required": false,
+              "options": [
+                {
+                  "id": 2436,
+                  "name": "- соус Горчичный во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2332,
+                  "name": "- соус Барбекю во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2450,
+                  "name": "- соус Сырный во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2315,
+                  "name": "- перчики острые во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2302,
+                  "name": "- соус Томатный во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2971,
+                  "name": "- соус Острый во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2463,
+                  "name": "- соус Чесночный во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                }
+              ],
+              "min": 0,
+              "max": 12,
+              "section_id": 431
+            },
+            {
+              "title": "Убери лишнее",
+              "type": "many_many",
+              "required": false,
+              "options": [
+                {
+                  "id": 2358,
+                  "name": "БЕЗ ФРИ",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2416,
+                  "name": "БЕЗ МЯСА",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2370,
+                  "name": "БЕЗ ЛУКА",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2484,
+                  "name": "БЕЗ МАЙОНЕЗА",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2507,
+                  "name": "БЕЗ ПОМИДОР",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                }
+              ],
+              "min": 0,
+              "max": 6,
+              "section_id": 409
+            }
+          ],
+          "additional_prices": [
+            {
+              "price": 29900000,
+              "priceFormatted": "2990 ₸",
+              "isPartial": false,
+              "partialConfig": null,
+              "size": "",
+              "sizeFormatted": "",
+              "price_formatted": "2990 ₸",
+              "is_partial": false,
+              "partial_config": null,
+              "size_formatted": ""
+            }
+          ],
+          "scraped_at": "2025-08-21 15:23:46"
+        },
+        {
+          "id": "2321",
+          "name": "Классическая Средняя шаурма",
+          "description": "Тонкий лаваш, сочные кусочки говядины, картофель фри, лук, помидор, красный соус, белый соус",
+          "price": {
+            "price": 1690,
+            "currency": "₸",
+            "is_range": true,
+            "original_text": "от 1690 ₸"
+          },
+          "size": "",
+          "url": "https://appfood1.kz/product/2321-klassicheskaya-srednyaya-shaurma",
+          "images": [
+            {
+              "src": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/ed2dbe1a248bfc6ffbb731011b82a87d---jpg_420x420:whitepadding15_94310_convert.webp",
+              "low": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/ed2dbe1a248bfc6ffbb731011b82a87d---jpg_37x37:whitepadding1:quality20_8f789_convert.webp",
+              "high": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/ed2dbe1a248bfc6ffbb731011b82a87d---jpg_1100_1e6e0_convert.webp",
+              "ratio": "100.00",
+              "local_path": "output/images/ed2dbe1a248bfc6ffbb731011b82a87d---jpg_420x420:whitepadding15_94310_convert.webp"
+            }
+          ],
+          "modifiers": [
+            {
+              "title": "Выберите размер",
+              "type": "sizes",
+              "required": 1,
+              "options": [
+                {
+                  "id": null,
+                  "name": "",
+                  "price": 16900000,
+                  "price_formatted": "1690 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 0,
+                  "default_amount": 0
+                }
+              ]
+            },
+            {
+              "title": "Добавь вкуса",
+              "type": "many_many",
+              "required": false,
+              "options": [
+                {
+                  "id": 2433,
+                  "name": "- соус Горчичный во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2329,
+                  "name": "- соус Барбекю во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2447,
+                  "name": "- соус Сырный во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2312,
+                  "name": "- перчики острые во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2299,
+                  "name": "- соус Томатный во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2968,
+                  "name": "- соус Острый во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2460,
+                  "name": "- соус Чесночный во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                }
+              ],
+              "min": 0,
+              "max": 12,
+              "section_id": 427
+            },
+            {
+              "title": "Убери лишнее",
+              "type": "many_many",
+              "required": false,
+              "options": [
+                {
+                  "id": 2381,
+                  "name": "БЕЗ КЕТЧУПА",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2356,
+                  "name": "БЕЗ ФРИ",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2415,
+                  "name": "БЕЗ МЯСА",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2369,
+                  "name": "БЕЗ ЛУКА",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2482,
+                  "name": "БЕЗ МАЙОНЕЗА",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2506,
+                  "name": "БЕЗ ПОМИДОР",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                }
+              ],
+              "min": 0,
+              "max": 6,
+              "section_id": 405
+            }
+          ],
+          "additional_prices": [
+            {
+              "price": 16900000,
+              "priceFormatted": "1690 ₸",
+              "isPartial": false,
+              "partialConfig": null,
+              "size": "",
+              "sizeFormatted": "",
+              "price_formatted": "1690 ₸",
+              "is_partial": false,
+              "partial_config": null,
+              "size_formatted": ""
+            }
+          ],
+          "scraped_at": "2025-08-21 15:23:46"
+        },
+        {
+          "id": "2338",
+          "name": "Классическая Большая шаурма",
+          "description": "Тонкий лаваш, сочные кусочки говядины, картофель фри, лук, помидор, красный соус, белый соус",
+          "price": {
+            "price": 2490,
+            "currency": "₸",
+            "is_range": true,
+            "original_text": "от 2490 ₸"
+          },
+          "size": "",
+          "url": "https://appfood1.kz/product/2338-klassicheskaya-bolshaya-shaurma",
+          "images": [
+            {
+              "src": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/23b1fdb4fa17aaba0faa168238ce3d05---jpeg_420x420:whitepadding15_94310_convert.webp",
+              "low": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/23b1fdb4fa17aaba0faa168238ce3d05---jpeg_37x37:whitepadding1:quality20_8f789_convert.webp",
+              "high": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/23b1fdb4fa17aaba0faa168238ce3d05---jpeg_1100_1e6e0_convert.webp",
+              "ratio": "99.93",
+              "local_path": "output/images/23b1fdb4fa17aaba0faa168238ce3d05---jpeg_420x420:whitepadding15_94310_convert.webp"
+            }
+          ],
+          "modifiers": [
+            {
+              "title": "Выберите размер",
+              "type": "sizes",
+              "required": 1,
+              "options": [
+                {
+                  "id": null,
+                  "name": "",
+                  "price": 24900000,
+                  "price_formatted": "2490 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 0,
+                  "default_amount": 0
+                }
+              ]
+            },
+            {
+              "title": "Добавь вкуса",
+              "type": "many_many",
+              "required": false,
+              "options": [
+                {
+                  "id": 2435,
+                  "name": "- соус Горчичный во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2331,
+                  "name": "- соус Барбекю во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2449,
+                  "name": "- соус Сырный во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2314,
+                  "name": "- перчики острые во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2301,
+                  "name": "- соус Томатный во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2970,
+                  "name": "- соус Острый во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2462,
+                  "name": "- соус Чесночный во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                }
+              ],
+              "min": 0,
+              "max": 12,
+              "section_id": 429
+            },
+            {
+              "title": "Убери лишнее",
+              "type": "many_many",
+              "required": false,
+              "options": [
+                {
+                  "id": 2378,
+                  "name": "БЕЗ КЕТЧУПА",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2352,
+                  "name": "БЕЗ ФРИ",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2411,
+                  "name": "БЕЗ МЯСА",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2365,
+                  "name": "БЕЗ ЛУКА",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2478,
+                  "name": "БЕЗ МАЙОНЕЗА",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2504,
+                  "name": "БЕЗ ПОМИДОР",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                }
+              ],
+              "min": 0,
+              "max": 6,
+              "section_id": 407
+            }
+          ],
+          "additional_prices": [
+            {
+              "price": 24900000,
+              "priceFormatted": "2490 ₸",
+              "isPartial": false,
+              "partialConfig": null,
+              "size": "",
+              "sizeFormatted": "",
+              "price_formatted": "2490 ₸",
+              "is_partial": false,
+              "partial_config": null,
+              "size_formatted": ""
+            }
+          ],
+          "scraped_at": "2025-08-21 15:23:46"
+        },
+        {
+          "id": "2396",
+          "name": "Куриная Большая шаурма",
+          "description": "Тонкий лаваш, сочные кусочки курицы, картофель фри, лук, помидор, красный соус, белый соус",
+          "price": {
+            "price": 2390,
+            "currency": "₸",
+            "is_range": true,
+            "original_text": "от 2390 ₸"
+          },
+          "size": "",
+          "url": "https://appfood1.kz/product/2396-kurinaya-bolshaya-shaurma",
+          "images": [
+            {
+              "src": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/978f0e0a396b13d5f8bcad7d7b5c79c9---jpeg_420x420:whitepadding15_94310_convert.webp",
+              "low": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/978f0e0a396b13d5f8bcad7d7b5c79c9---jpeg_37x37:whitepadding1:quality20_8f789_convert.webp",
+              "high": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/978f0e0a396b13d5f8bcad7d7b5c79c9---jpeg_1100_1e6e0_convert.webp",
+              "ratio": "99.93",
+              "local_path": "output/images/978f0e0a396b13d5f8bcad7d7b5c79c9---jpeg_420x420:whitepadding15_94310_convert.webp"
+            }
+          ],
+          "modifiers": [
+            {
+              "title": "Выберите размер",
+              "type": "sizes",
+              "required": 1,
+              "options": [
+                {
+                  "id": null,
+                  "name": "",
+                  "price": 23900000,
+                  "price_formatted": "2390 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 0,
+                  "default_amount": 0
+                }
+              ]
+            },
+            {
+              "title": "Добавь вкуса",
+              "type": "many_many",
+              "required": false,
+              "options": [
+                {
+                  "id": 2430,
+                  "name": "- соус Горчичный во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2326,
+                  "name": "- соус Барбекю во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2444,
+                  "name": "- соус Сырный во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2309,
+                  "name": "- перчики острые во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2296,
+                  "name": "- соус Томатный во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2965,
+                  "name": "- соус Острый во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2457,
+                  "name": "- соус Чесночный во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                }
+              ],
+              "min": 0,
+              "max": 12,
+              "section_id": 432
+            },
+            {
+              "title": "Убери лишнее",
+              "type": "many_many",
+              "required": false,
+              "options": [
+                {
+                  "id": 2377,
+                  "name": "БЕЗ КЕТЧУПА",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2351,
+                  "name": "БЕЗ ФРИ",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2410,
+                  "name": "БЕЗ МЯСА",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2364,
+                  "name": "БЕЗ ЛУКА",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2477,
+                  "name": "БЕЗ МАЙОНЕЗА",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2503,
+                  "name": "БЕЗ ПОМИДОР",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                }
+              ],
+              "min": 0,
+              "max": 6,
+              "section_id": 410
+            }
+          ],
+          "additional_prices": [
+            {
+              "price": 23900000,
+              "priceFormatted": "2390 ₸",
+              "isPartial": false,
+              "partialConfig": null,
+              "size": "",
+              "sizeFormatted": "",
+              "price_formatted": "2390 ₸",
+              "is_partial": false,
+              "partial_config": null,
+              "size_formatted": ""
+            }
+          ],
+          "scraped_at": "2025-08-21 15:23:46"
+        },
+        {
+          "id": "2471",
+          "name": "Куриная Средняя шаурма",
+          "description": "Тонкий лаваш, сочные кусочки курицы, картофель фри, лук, помидор, красный соус, белый соус",
+          "price": {
+            "price": 1590,
+            "currency": "₸",
+            "is_range": true,
+            "original_text": "от 1590 ₸"
+          },
+          "size": "",
+          "url": "https://appfood1.kz/product/2471-kurinaya-srednyaya-shaurma",
+          "images": [
+            {
+              "src": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/de192faaddc80e9da0439c267659cf0b---jpeg_420x420:whitepadding15_94310_convert.webp",
+              "low": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/de192faaddc80e9da0439c267659cf0b---jpeg_37x37:whitepadding1:quality20_8f789_convert.webp",
+              "high": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/de192faaddc80e9da0439c267659cf0b---jpeg_1100_1e6e0_convert.webp",
+              "ratio": "100.00",
+              "local_path": "output/images/de192faaddc80e9da0439c267659cf0b---jpeg_420x420:whitepadding15_94310_convert.webp"
+            }
+          ],
+          "modifiers": [
+            {
+              "title": "Выберите размер",
+              "type": "sizes",
+              "required": 1,
+              "options": [
+                {
+                  "id": null,
+                  "name": "",
+                  "price": 15900000,
+                  "price_formatted": "1590 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 0,
+                  "default_amount": 0
+                }
+              ]
+            },
+            {
+              "title": "Добавь вкуса",
+              "type": "many_many",
+              "required": false,
+              "options": [
+                {
+                  "id": 2434,
+                  "name": "- соус Горчичный во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2330,
+                  "name": "- соус Барбекю во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2448,
+                  "name": "- соус Сырный во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2313,
+                  "name": "- перчики острые во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2300,
+                  "name": "- соус Томатный во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2969,
+                  "name": "- соус Острый во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2461,
+                  "name": "- соус Чесночный во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                }
+              ],
+              "min": 0,
+              "max": 12,
+              "section_id": 435
+            },
+            {
+              "title": "Убери лишнее",
+              "type": "many_many",
+              "required": false,
+              "options": [
+                {
+                  "id": 2376,
+                  "name": "БЕЗ КЕТЧУПА",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2350,
+                  "name": "БЕЗ ФРИ",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2409,
+                  "name": "БЕЗ МЯСА",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2363,
+                  "name": "БЕЗ ЛУКА",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2476,
+                  "name": "БЕЗ МАЙОНЕЗА",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2502,
+                  "name": "БЕЗ ПОМИДОР",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                }
+              ],
+              "min": 0,
+              "max": 6,
+              "section_id": 413
+            }
+          ],
+          "additional_prices": [
+            {
+              "price": 15900000,
+              "priceFormatted": "1590 ₸",
+              "isPartial": false,
+              "partialConfig": null,
+              "size": "",
+              "sizeFormatted": "",
+              "price_formatted": "1590 ₸",
+              "is_partial": false,
+              "partial_config": null,
+              "size_formatted": ""
+            }
+          ],
+          "scraped_at": "2025-08-21 15:23:47"
+        },
+        {
+          "id": "3223",
+          "name": "Мраморная Большая шаурма",
+          "description": "Тонкий лаваш, сочные кусочки мраморной говядины, картофель фри, лук, помидор, красный соус, белый соус",
+          "price": {
+            "price": 3390,
+            "currency": "₸",
+            "is_range": true,
+            "original_text": "от 3390 ₸"
+          },
+          "size": "",
+          "url": "https://appfood1.kz/product/3223-mramornaya-bolshaya-shaurma",
+          "images": [
+            {
+              "src": "https://cdn-kz11.foodpicasso.com/assets/22/c7/5f/d1/22c75fd1dc7052567424ff9459a2e31a---jpg_420x420:whitepadding15_94310_convert.webp",
+              "low": "https://cdn-kz11.foodpicasso.com/assets/22/c7/5f/d1/22c75fd1dc7052567424ff9459a2e31a---jpg_37x37:whitepadding1:quality20_8f789_convert.webp",
+              "high": "https://cdn-kz11.foodpicasso.com/assets/22/c7/5f/d1/22c75fd1dc7052567424ff9459a2e31a---jpg_1100_1e6e0_convert.webp",
+              "ratio": "99.93",
+              "local_path": "output/images/22c75fd1dc7052567424ff9459a2e31a---jpg_420x420:whitepadding15_94310_convert.webp"
+            }
+          ],
+          "modifiers": [
+            {
+              "title": "Выберите размер",
+              "type": "sizes",
+              "required": 1,
+              "options": [
+                {
+                  "id": null,
+                  "name": "",
+                  "price": 33900000,
+                  "price_formatted": "3390 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 0,
+                  "default_amount": 0
+                }
+              ]
+            },
+            {
+              "title": "Добавь вкуса",
+              "type": "many_many",
+              "required": false,
+              "options": [
+                {
+                  "id": 3234,
+                  "name": "- соус Горчичный во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 3215,
+                  "name": "- соус Барбекю во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 3238,
+                  "name": "- соус Сырный во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 3210,
+                  "name": "- перчики острые во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 3208,
+                  "name": "- соус Томатный во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 3230,
+                  "name": "- соус Острый во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 3240,
+                  "name": "- соус Чесночный во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                }
+              ],
+              "min": 0,
+              "max": 12,
+              "section_id": 537
+            },
+            {
+              "title": "Убери лишнее",
+              "type": "many_many",
+              "required": false,
+              "options": [
+                {
+                  "id": 3222,
+                  "name": "БЕЗ КЕТЧУПА",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 3218,
+                  "name": "БЕЗ ФРИ",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 3227,
+                  "name": "БЕЗ МЯСА",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 3220,
+                  "name": "БЕЗ ЛУКА",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 3246,
+                  "name": "БЕЗ МАЙОНЕЗА",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 3252,
+                  "name": "БЕЗ ПОМИДОР",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                }
+              ],
+              "min": 0,
+              "max": 6,
+              "section_id": 534
+            }
+          ],
+          "additional_prices": [
+            {
+              "price": 33900000,
+              "priceFormatted": "3390 ₸",
+              "isPartial": false,
+              "partialConfig": null,
+              "size": "",
+              "sizeFormatted": "",
+              "price_formatted": "3390 ₸",
+              "is_partial": false,
+              "partial_config": null,
+              "size_formatted": ""
+            }
+          ],
+          "scraped_at": "2025-08-21 15:23:47"
+        },
+        {
+          "id": "3211",
+          "name": "Мраморная Средняя шаурма",
+          "description": "Тонкий лаваш, сочные кусочки мраморной говядины, картофель фри, лук, помидор, красный соус, белый соус",
+          "price": {
+            "price": 2390,
+            "currency": "₸",
+            "is_range": true,
+            "original_text": "от 2390 ₸"
+          },
+          "size": "",
+          "url": "https://appfood1.kz/product/3211-mramornaya-srednyaya-shaurma",
+          "images": [
+            {
+              "src": "https://cdn-kz11.foodpicasso.com/assets/15/30/f2/e8/1530f2e882ed28e357fce4ed8bba7a98---jpg_420x420:whitepadding15_94310_convert.webp",
+              "low": "https://cdn-kz11.foodpicasso.com/assets/15/30/f2/e8/1530f2e882ed28e357fce4ed8bba7a98---jpg_37x37:whitepadding1:quality20_8f789_convert.webp",
+              "high": "https://cdn-kz11.foodpicasso.com/assets/15/30/f2/e8/1530f2e882ed28e357fce4ed8bba7a98---jpg_1100_1e6e0_convert.webp",
+              "ratio": "100.00",
+              "local_path": "output/images/1530f2e882ed28e357fce4ed8bba7a98---jpg_420x420:whitepadding15_94310_convert.webp"
+            }
+          ],
+          "modifiers": [
+            {
+              "title": "Выберите размер",
+              "type": "sizes",
+              "required": 1,
+              "options": [
+                {
+                  "id": null,
+                  "name": "",
+                  "price": 23900000,
+                  "price_formatted": "2390 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 0,
+                  "default_amount": 0
+                }
+              ]
+            },
+            {
+              "title": "Добавь вкуса",
+              "type": "many_many",
+              "required": false,
+              "options": [
+                {
+                  "id": 3233,
+                  "name": "- соус Горчичный во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 3214,
+                  "name": "- соус Барбекю во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 3237,
+                  "name": "- соус Сырный во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 3209,
+                  "name": "- перчики острые во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 3207,
+                  "name": "- соус Томатный во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 3229,
+                  "name": "- соус Острый во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 3239,
+                  "name": "- соус Чесночный во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                }
+              ],
+              "min": 0,
+              "max": 12,
+              "section_id": 536
+            },
+            {
+              "title": "Убери лишнее",
+              "type": "many_many",
+              "required": false,
+              "options": [
+                {
+                  "id": 3221,
+                  "name": "БЕЗ КЕТЧУПА",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 3217,
+                  "name": "БЕЗ ФРИ",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 3226,
+                  "name": "БЕЗ МЯСА",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 3219,
+                  "name": "БЕЗ ЛУКА",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 3245,
+                  "name": "БЕЗ МАЙОНЕЗА",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 3251,
+                  "name": "БЕЗ ПОМИДОР",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                }
+              ],
+              "min": 0,
+              "max": 6,
+              "section_id": 533
+            }
+          ],
+          "additional_prices": [
+            {
+              "price": 23900000,
+              "priceFormatted": "2390 ₸",
+              "isPartial": false,
+              "partialConfig": null,
+              "size": "",
+              "sizeFormatted": "",
+              "price_formatted": "2390 ₸",
+              "is_partial": false,
+              "partial_config": null,
+              "size_formatted": ""
+            }
+          ],
+          "scraped_at": "2025-08-21 15:23:47"
+        },
+        {
+          "id": "2340",
+          "name": "Донер с говядиной",
+          "description": "Булочка, сочные кусочки говядины, картофель фри, лук, красный соус, белый соус",
+          "price": {
+            "price": 1490,
+            "currency": "₸",
+            "is_range": true,
+            "original_text": "от 1490 ₸"
+          },
+          "size": "",
+          "url": "https://appfood1.kz/product/2340-doner-s-govyadinoy",
+          "images": [
+            {
+              "src": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/40c729cbc8fddf4dc03a48aa50517ab6---jpeg_420x420:whitepadding15_94310_convert.webp",
+              "low": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/40c729cbc8fddf4dc03a48aa50517ab6---jpeg_37x37:whitepadding1:quality20_8f789_convert.webp",
+              "high": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/40c729cbc8fddf4dc03a48aa50517ab6---jpeg_1100_1e6e0_convert.webp",
+              "ratio": "99.93",
+              "local_path": "output/images/40c729cbc8fddf4dc03a48aa50517ab6---jpeg_420x420:whitepadding15_94310_convert.webp"
+            }
+          ],
+          "modifiers": [
+            {
+              "title": "Выберите размер",
+              "type": "sizes",
+              "required": 1,
+              "options": [
+                {
+                  "id": null,
+                  "name": "",
+                  "price": 14900000,
+                  "price_formatted": "1490 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 0,
+                  "default_amount": 0
+                }
+              ]
+            },
+            {
+              "title": "Добавь вкуса",
+              "type": "many_many",
+              "required": false,
+              "options": [
+                {
+                  "id": 2428,
+                  "name": "- соус Горчичный во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2324,
+                  "name": "- соус Барбекю во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2442,
+                  "name": "- соус Сырный во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2307,
+                  "name": "- перчики острые во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2294,
+                  "name": "- соус Томатный во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2962,
+                  "name": "- соус Острый во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2455,
+                  "name": "- соус Чесночный во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                }
+              ],
+              "min": 0,
+              "max": 12,
+              "section_id": 430
+            },
+            {
+              "title": "Убери лишнее",
+              "type": "many_many",
+              "required": false,
+              "options": [
+                {
+                  "id": 2379,
+                  "name": "БЕЗ КЕТЧУПА",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2353,
+                  "name": "БЕЗ ФРИ",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2412,
+                  "name": "БЕЗ МЯСА",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2366,
+                  "name": "БЕЗ ЛУКА",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2479,
+                  "name": "БЕЗ МАЙОНЕЗА",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                }
+              ],
+              "min": 0,
+              "max": 6,
+              "section_id": 408
+            }
+          ],
+          "additional_prices": [
+            {
+              "price": 14900000,
+              "priceFormatted": "1490 ₸",
+              "isPartial": false,
+              "partialConfig": null,
+              "size": "",
+              "sizeFormatted": "",
+              "price_formatted": "1490 ₸",
+              "is_partial": false,
+              "partial_config": null,
+              "size_formatted": ""
+            }
+          ],
+          "scraped_at": "2025-08-21 15:23:47"
+        },
+        {
+          "id": "2419",
+          "name": "Донер с курицей",
+          "description": "Булочка, сочные кусочки курицы, картофель фри, лук, красный соус, белый соус",
+          "price": {
+            "price": 1490,
+            "currency": "₸",
+            "is_range": true,
+            "original_text": "от 1490 ₸"
+          },
+          "size": "",
+          "url": "https://appfood1.kz/product/2419-doner-s-kuritsey",
+          "images": [
+            {
+              "src": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/e09cfde451e5dde3c8ffa0f2f53b56bb---jpeg_420x420:whitepadding15_94310_convert.webp",
+              "low": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/e09cfde451e5dde3c8ffa0f2f53b56bb---jpeg_37x37:whitepadding1:quality20_8f789_convert.webp",
+              "high": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/e09cfde451e5dde3c8ffa0f2f53b56bb---jpeg_1100_1e6e0_convert.webp",
+              "ratio": "99.93",
+              "local_path": "output/images/e09cfde451e5dde3c8ffa0f2f53b56bb---jpeg_420x420:whitepadding15_94310_convert.webp"
+            }
+          ],
+          "modifiers": [
+            {
+              "title": "Выберите размер",
+              "type": "sizes",
+              "required": 1,
+              "options": [
+                {
+                  "id": null,
+                  "name": "",
+                  "price": 14900000,
+                  "price_formatted": "1490 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 0,
+                  "default_amount": 0
+                }
+              ]
+            },
+            {
+              "title": "Добавь вкуса",
+              "type": "many_many",
+              "required": false,
+              "options": [
+                {
+                  "id": 2427,
+                  "name": "- соус Горчичный во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2323,
+                  "name": "- соус Барбекю во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2441,
+                  "name": "- соус Сырный во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2306,
+                  "name": "- перчики острые во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2293,
+                  "name": "- соус Томатный во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2961,
+                  "name": "- соус Острый во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2454,
+                  "name": "- соус Чесночный во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                }
+              ],
+              "min": 0,
+              "max": 12,
+              "section_id": 433
+            },
+            {
+              "title": "Убери лишнее",
+              "type": "many_many",
+              "required": false,
+              "options": [
+                {
+                  "id": 2380,
+                  "name": "БЕЗ КЕТЧУПА",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2354,
+                  "name": "БЕЗ ФРИ",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2413,
+                  "name": "БЕЗ МЯСА",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2367,
+                  "name": "БЕЗ ЛУКА",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2480,
+                  "name": "БЕЗ МАЙОНЕЗА",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                }
+              ],
+              "min": 0,
+              "max": 6,
+              "section_id": 411
+            }
+          ],
+          "additional_prices": [
+            {
+              "price": 14900000,
+              "priceFormatted": "1490 ₸",
+              "isPartial": false,
+              "partialConfig": null,
+              "size": "",
+              "sizeFormatted": "",
+              "price_formatted": "1490 ₸",
+              "is_partial": false,
+              "partial_config": null,
+              "size_formatted": ""
+            }
+          ],
+          "scraped_at": "2025-08-21 15:23:47"
+        },
+        {
+          "id": "2510",
+          "name": "Хот-дог",
+          "description": "Булочка, сосиски обжаренные на гриле, картофель фри, красный соус, белый соус",
+          "price": {
+            "price": 990,
+            "currency": "₸",
+            "is_range": true,
+            "original_text": "от 990 ₸"
+          },
+          "size": "",
+          "url": "https://appfood1.kz/product/2510-hot-dog",
+          "images": [
+            {
+              "src": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/5df94c16b16bc7906f55d652a46d0f2f---jpeg_420x420:whitepadding15_94310_convert.webp",
+              "low": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/5df94c16b16bc7906f55d652a46d0f2f---jpeg_37x37:whitepadding1:quality20_8f789_convert.webp",
+              "high": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/5df94c16b16bc7906f55d652a46d0f2f---jpeg_1100_1e6e0_convert.webp",
+              "ratio": "99.93",
+              "local_path": "output/images/5df94c16b16bc7906f55d652a46d0f2f---jpeg_420x420:whitepadding15_94310_convert.webp"
+            }
+          ],
+          "modifiers": [
+            {
+              "title": "Выберите размер",
+              "type": "sizes",
+              "required": 1,
+              "options": [
+                {
+                  "id": null,
+                  "name": "",
+                  "price": 9900000,
+                  "price_formatted": "990 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 0,
+                  "default_amount": 0
+                }
+              ]
+            },
+            {
+              "title": "Добавь вкуса",
+              "type": "many_many",
+              "required": false,
+              "options": [
+                {
+                  "id": 2437,
+                  "name": "- соус Горчичный во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2333,
+                  "name": "- соус Барбекю во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2451,
+                  "name": "- соус Сырный во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2316,
+                  "name": "- перчики острые во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2303,
+                  "name": "- соус Томатный во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2972,
+                  "name": "- соус Острый во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2464,
+                  "name": "- соус Чесночный во внутрь",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                }
+              ],
+              "min": 0,
+              "max": 12,
+              "section_id": 437
+            },
+            {
+              "title": "Убери лишнее",
+              "type": "many_many",
+              "required": false,
+              "options": [
+                {
+                  "id": 2382,
+                  "name": "БЕЗ КЕТЧУПА",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2357,
+                  "name": "БЕЗ ФРИ",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2483,
+                  "name": "БЕЗ МАЙОНЕЗА",
+                  "price": 0,
+                  "price_formatted": "0 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 1,
+                  "default_amount": 0
+                }
+              ],
+              "min": 0,
+              "max": 6,
+              "section_id": 415
+            }
+          ],
+          "additional_prices": [
+            {
+              "price": 9900000,
+              "priceFormatted": "990 ₸",
+              "isPartial": false,
+              "partialConfig": null,
+              "size": "",
+              "sizeFormatted": "",
+              "price_formatted": "990 ₸",
+              "is_partial": false,
+              "partial_config": null,
+              "size_formatted": ""
+            }
+          ],
+          "scraped_at": "2025-08-21 15:23:47"
+        }
+      ],
+      "product_count": 11
+    },
+    {
+      "id": "425",
+      "title": "Закуски",
+      "restriction": "",
+      "products": [
+        {
+          "id": "3323",
+          "name": "Шекер",
+          "description": "Сладкие палочки из теста, обжаренные во фритюре: хрустящие снаружи и нежные внутри",
+          "price": {
+            "price": 400,
+            "currency": "₸",
+            "is_range": false,
+            "original_text": "400 ₸"
+          },
+          "size": "",
+          "url": "https://appfood1.kz/product/3323-sheker",
+          "images": [
+            {
+              "src": "https://cdn-kz11.foodpicasso.com/assets/cd/bc/c2/51/cdbcc251d19cb5769c0579dd839491ba---jpg_420x420:whitepadding15_94310_convert.webp",
+              "low": "https://cdn-kz11.foodpicasso.com/assets/cd/bc/c2/51/cdbcc251d19cb5769c0579dd839491ba---jpg_37x37:whitepadding1:quality20_8f789_convert.webp",
+              "high": "https://cdn-kz11.foodpicasso.com/assets/cd/bc/c2/51/cdbcc251d19cb5769c0579dd839491ba---jpg_1100_1e6e0_convert.webp",
+              "ratio": "100.00",
+              "local_path": "output/images/cdbcc251d19cb5769c0579dd839491ba---jpg_420x420:whitepadding15_94310_convert.webp"
+            }
+          ],
+          "modifiers": [
+            {
+              "title": "Выберите размер",
+              "type": "sizes",
+              "required": 1,
+              "options": [
+                {
+                  "id": null,
+                  "name": "",
+                  "price": 4000000,
+                  "price_formatted": "400 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 0,
+                  "default_amount": 0
+                }
+              ]
+            }
+          ],
+          "additional_prices": [
+            {
+              "price": 4000000,
+              "priceFormatted": "400 ₸",
+              "isPartial": false,
+              "partialConfig": null,
+              "size": "",
+              "sizeFormatted": "",
+              "price_formatted": "400 ₸",
+              "is_partial": false,
+              "partial_config": null,
+              "size_formatted": ""
+            }
+          ],
+          "scraped_at": "2025-08-21 15:23:47"
+        },
+        {
+          "id": "2290",
+          "name": "Чебуречки",
+          "description": "Сочные и вкусные чебуречки, обжаренные во фритюре",
+          "price": {
+            "price": 990,
+            "currency": "₸",
+            "is_range": true,
+            "original_text": "от 990 ₸"
+          },
+          "size": "",
+          "url": "https://appfood1.kz/product/2290-cheburechki",
+          "images": [
+            {
+              "src": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/5d00d455fdad4c1ffba2f003262fa348---jpeg_420x420:whitepadding15_94310_convert.webp",
+              "low": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/5d00d455fdad4c1ffba2f003262fa348---jpeg_37x37:whitepadding1:quality20_8f789_convert.webp",
+              "high": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/5d00d455fdad4c1ffba2f003262fa348---jpeg_1100_1e6e0_convert.webp",
+              "ratio": "99.93",
+              "local_path": "output/images/5d00d455fdad4c1ffba2f003262fa348---jpeg_420x420:whitepadding15_94310_convert.webp"
+            }
+          ],
+          "modifiers": [
+            {
+              "title": "Выберите размер",
+              "type": "sizes",
+              "required": 1,
+              "options": [
+                {
+                  "id": null,
+                  "name": "",
+                  "price": 9900000,
+                  "price_formatted": "990 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 0,
+                  "default_amount": 0
+                }
+              ]
+            },
+            {
+              "title": "Дополни заказ",
+              "type": "many_many",
+              "required": false,
+              "options": [
+                {
+                  "id": 2386,
+                  "name": "Соус Сырный 30гр",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2515,
+                  "name": "Соус Горчичный 30г",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2424,
+                  "name": "Соус Барбекю 30гр",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2345,
+                  "name": "Соус Томатный 30гр",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2390,
+                  "name": "Перчики острые 15гр",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2497,
+                  "name": "Соус Чесночный 30гр",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2957,
+                  "name": "Соус Острый 30гр",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                }
+              ],
+              "min": 0,
+              "max": 12,
+              "section_id": 418
+            }
+          ],
+          "additional_prices": [
+            {
+              "price": 9900000,
+              "priceFormatted": "990 ₸",
+              "isPartial": false,
+              "partialConfig": null,
+              "size": "",
+              "sizeFormatted": "",
+              "price_formatted": "990 ₸",
+              "is_partial": false,
+              "partial_config": null,
+              "size_formatted": ""
+            }
+          ],
+          "scraped_at": "2025-08-21 15:23:48"
+        },
+        {
+          "id": "2492",
+          "name": "Наггетсы",
+          "description": "Нежнейшие кусочки куриного мяса в золотистой панировке!",
+          "price": {
+            "price": 1490,
+            "currency": "₸",
+            "is_range": true,
+            "original_text": "от 1490 ₸"
+          },
+          "size": "",
+          "url": "https://appfood1.kz/product/2492-naggetsy",
+          "images": [
+            {
+              "src": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/b059d0e8a3ad4129618668e05fb3725b---jpeg_420x420:whitepadding15_94310_convert.webp",
+              "low": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/b059d0e8a3ad4129618668e05fb3725b---jpeg_37x37:whitepadding1:quality20_8f789_convert.webp",
+              "high": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/b059d0e8a3ad4129618668e05fb3725b---jpeg_1100_1e6e0_convert.webp",
+              "ratio": "100.00",
+              "local_path": "output/images/b059d0e8a3ad4129618668e05fb3725b---jpeg_420x420:whitepadding15_94310_convert.webp"
+            }
+          ],
+          "modifiers": [
+            {
+              "title": "Выберите размер",
+              "type": "sizes",
+              "required": 1,
+              "options": [
+                {
+                  "id": null,
+                  "name": "",
+                  "price": 14900000,
+                  "price_formatted": "1490 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 0,
+                  "default_amount": 0
+                }
+              ]
+            },
+            {
+              "title": "Дополни заказ",
+              "type": "many_many",
+              "required": false,
+              "options": [
+                {
+                  "id": 2385,
+                  "name": "Соус Сырный 30гр",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2514,
+                  "name": "Соус Горчичный 30г",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2423,
+                  "name": "Соус Барбекю 30гр",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2344,
+                  "name": "Соус Томатный 30гр",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2389,
+                  "name": "Перчики острые 15гр",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2496,
+                  "name": "Соус Чесночный 30гр",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2955,
+                  "name": "Соус Острый 30гр",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                }
+              ],
+              "min": 0,
+              "max": 12,
+              "section_id": 420
+            }
+          ],
+          "additional_prices": [
+            {
+              "price": 14900000,
+              "priceFormatted": "1490 ₸",
+              "isPartial": false,
+              "partialConfig": null,
+              "size": "",
+              "sizeFormatted": "",
+              "price_formatted": "1490 ₸",
+              "is_partial": false,
+              "partial_config": null,
+              "size_formatted": ""
+            }
+          ],
+          "scraped_at": "2025-08-21 15:23:48"
+        },
+        {
+          "id": "2394",
+          "name": "Фри",
+          "description": "Кусочки картофеля, обжаренные во фритюре",
+          "price": {
+            "price": 790,
+            "currency": "₸",
+            "is_range": true,
+            "original_text": "от 790 ₸"
+          },
+          "size": "",
+          "url": "https://appfood1.kz/product/2394-fri",
+          "images": [
+            {
+              "src": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/005a8258c1c7ffaa6b32b5c76ec54b40---jpeg_420x420:whitepadding15_94310_convert.webp",
+              "low": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/005a8258c1c7ffaa6b32b5c76ec54b40---jpeg_37x37:whitepadding1:quality20_8f789_convert.webp",
+              "high": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/005a8258c1c7ffaa6b32b5c76ec54b40---jpeg_1100_1e6e0_convert.webp",
+              "ratio": "100.07",
+              "local_path": "output/images/005a8258c1c7ffaa6b32b5c76ec54b40---jpeg_420x420:whitepadding15_94310_convert.webp"
+            }
+          ],
+          "modifiers": [
+            {
+              "title": "Выберите размер",
+              "type": "sizes",
+              "required": 1,
+              "options": [
+                {
+                  "id": null,
+                  "name": "",
+                  "price": 7900000,
+                  "price_formatted": "790 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 0,
+                  "default_amount": 0
+                }
+              ]
+            },
+            {
+              "title": "Дополни заказ",
+              "type": "many_many",
+              "required": false,
+              "options": [
+                {
+                  "id": 2384,
+                  "name": "Соус Сырный 30гр",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2513,
+                  "name": "Соус Горчичный 30г",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2422,
+                  "name": "Соус Барбекю 30гр",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2343,
+                  "name": "Соус Томатный 30гр",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2388,
+                  "name": "Перчики острые 15гр",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2495,
+                  "name": "Соус Чесночный 30гр",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2954,
+                  "name": "Соус Острый 30гр",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                }
+              ],
+              "min": 0,
+              "max": 12,
+              "section_id": 419
+            }
+          ],
+          "additional_prices": [
+            {
+              "price": 7900000,
+              "priceFormatted": "790 ₸",
+              "isPartial": false,
+              "partialConfig": null,
+              "size": "",
+              "sizeFormatted": "",
+              "price_formatted": "790 ₸",
+              "is_partial": false,
+              "partial_config": null,
+              "size_formatted": ""
+            }
+          ],
+          "scraped_at": "2025-08-21 15:23:48"
+        },
+        {
+          "id": "2493",
+          "name": "Дольки",
+          "description": "Воздушная картофельная мякоть с деликатным пряным вкусом!",
+          "price": {
+            "price": 1190,
+            "currency": "₸",
+            "is_range": true,
+            "original_text": "от 1190 ₸"
+          },
+          "size": "",
+          "url": "https://appfood1.kz/product/2493-dolki",
+          "images": [
+            {
+              "src": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/99f031c4db6f80e433b1a4c1c5acf6e7---jpeg_420x420:whitepadding15_94310_convert.webp",
+              "low": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/99f031c4db6f80e433b1a4c1c5acf6e7---jpeg_37x37:whitepadding1:quality20_8f789_convert.webp",
+              "high": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/99f031c4db6f80e433b1a4c1c5acf6e7---jpeg_1100_1e6e0_convert.webp",
+              "ratio": "100.00",
+              "local_path": "output/images/99f031c4db6f80e433b1a4c1c5acf6e7---jpeg_420x420:whitepadding15_94310_convert.webp"
+            }
+          ],
+          "modifiers": [
+            {
+              "title": "Выберите размер",
+              "type": "sizes",
+              "required": 1,
+              "options": [
+                {
+                  "id": null,
+                  "name": "",
+                  "price": 11900000,
+                  "price_formatted": "1190 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 0,
+                  "default_amount": 0
+                }
+              ]
+            },
+            {
+              "title": "Дополни заказ",
+              "type": "many_many",
+              "required": false,
+              "options": [
+                {
+                  "id": 2387,
+                  "name": "Соус Сырный 30гр",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2516,
+                  "name": "Соус Горчичный 30г",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2425,
+                  "name": "Соус Барбекю 30гр",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2346,
+                  "name": "Соус Томатный 30гр",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2391,
+                  "name": "Перчики острые 15гр",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2498,
+                  "name": "Соус Чесночный 30гр",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                },
+                {
+                  "id": 2958,
+                  "name": "Соус Острый 30гр",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 2,
+                  "default_amount": 0
+                }
+              ],
+              "min": 0,
+              "max": 12,
+              "section_id": 421
+            }
+          ],
+          "additional_prices": [
+            {
+              "price": 11900000,
+              "priceFormatted": "1190 ₸",
+              "isPartial": false,
+              "partialConfig": null,
+              "size": "",
+              "sizeFormatted": "",
+              "price_formatted": "1190 ₸",
+              "is_partial": false,
+              "partial_config": null,
+              "size_formatted": ""
+            }
+          ],
+          "scraped_at": "2025-08-21 15:23:48"
+        }
+      ],
+      "product_count": 5
+    },
+    {
+      "id": "417",
+      "title": "Соусы",
+      "restriction": "",
+      "products": [
+        {
+          "id": "2339",
+          "name": "Перчики острые 15г",
+          "description": "",
+          "price": {
+            "price": 240,
+            "currency": "₸",
+            "is_range": false,
+            "original_text": "240 ₸"
+          },
+          "size": "",
+          "url": "https://appfood1.kz/product/2339-perchiki-ostrye-15g",
+          "images": [
+            {
+              "src": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/8032248095ad95685129187c86a69fd3---jpeg_420x420:whitepadding15_94310_convert.webp",
+              "low": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/8032248095ad95685129187c86a69fd3---jpeg_37x37:whitepadding1:quality20_8f789_convert.webp",
+              "high": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/8032248095ad95685129187c86a69fd3---jpeg_1100_1e6e0_convert.webp",
+              "ratio": "99.93",
+              "local_path": "output/images/8032248095ad95685129187c86a69fd3---jpeg_420x420:whitepadding15_94310_convert.webp"
+            }
+          ],
+          "modifiers": [
+            {
+              "title": "Выберите размер",
+              "type": "sizes",
+              "required": 1,
+              "options": [
+                {
+                  "id": null,
+                  "name": "",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 0,
+                  "default_amount": 0
+                }
+              ]
+            }
+          ],
+          "additional_prices": [
+            {
+              "price": 2400000,
+              "priceFormatted": "240 ₸",
+              "isPartial": false,
+              "partialConfig": null,
+              "size": "",
+              "sizeFormatted": "",
+              "price_formatted": "240 ₸",
+              "is_partial": false,
+              "partial_config": null,
+              "size_formatted": ""
+            }
+          ],
+          "scraped_at": "2025-08-21 15:23:58"
+        },
+        {
+          "id": "2400",
+          "name": "соус Сырный 30г",
+          "description": "",
+          "price": {
+            "price": 240,
+            "currency": "₸",
+            "is_range": false,
+            "original_text": "240 ₸"
+          },
+          "size": "",
+          "url": "https://appfood1.kz/product/2400-sous-syrnyy-30g",
+          "images": [
+            {
+              "src": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/ef651ed87b4c3ab6e22e539c6081462c---jpeg_420x420:whitepadding15_94310_convert.webp",
+              "low": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/ef651ed87b4c3ab6e22e539c6081462c---jpeg_37x37:whitepadding1:quality20_8f789_convert.webp",
+              "high": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/ef651ed87b4c3ab6e22e539c6081462c---jpeg_1100_1e6e0_convert.webp",
+              "ratio": "100.07",
+              "local_path": "output/images/ef651ed87b4c3ab6e22e539c6081462c---jpeg_420x420:whitepadding15_94310_convert.webp"
+            }
+          ],
+          "modifiers": [
+            {
+              "title": "Выберите размер",
+              "type": "sizes",
+              "required": 1,
+              "options": [
+                {
+                  "id": null,
+                  "name": "",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 0,
+                  "default_amount": 0
+                }
+              ]
+            }
+          ],
+          "additional_prices": [
+            {
+              "price": 2400000,
+              "priceFormatted": "240 ₸",
+              "isPartial": false,
+              "partialConfig": null,
+              "size": "",
+              "sizeFormatted": "",
+              "price_formatted": "240 ₸",
+              "is_partial": false,
+              "partial_config": null,
+              "size_formatted": ""
+            }
+          ],
+          "scraped_at": "2025-08-21 15:24:08"
+        },
+        {
+          "id": "2404",
+          "name": "соус Томатный 30г",
+          "description": "",
+          "price": {
+            "price": 240,
+            "currency": "₸",
+            "is_range": false,
+            "original_text": "240 ₸"
+          },
+          "size": "",
+          "url": "https://appfood1.kz/product/2404-sous-tomatnyy-30g",
+          "images": [
+            {
+              "src": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/c282f9bf851d7be2402b14a824e3b859---jpeg_420x420:whitepadding15_94310_convert.webp",
+              "low": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/c282f9bf851d7be2402b14a824e3b859---jpeg_37x37:whitepadding1:quality20_8f789_convert.webp",
+              "high": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/c282f9bf851d7be2402b14a824e3b859---jpeg_1100_1e6e0_convert.webp",
+              "ratio": "100.00",
+              "local_path": "output/images/c282f9bf851d7be2402b14a824e3b859---jpeg_420x420:whitepadding15_94310_convert.webp"
+            }
+          ],
+          "modifiers": [
+            {
+              "title": "Выберите размер",
+              "type": "sizes",
+              "required": 1,
+              "options": [
+                {
+                  "id": null,
+                  "name": "",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 0,
+                  "default_amount": 0
+                }
+              ]
+            }
+          ],
+          "additional_prices": [
+            {
+              "price": 2400000,
+              "priceFormatted": "240 ₸",
+              "isPartial": false,
+              "partialConfig": null,
+              "size": "",
+              "sizeFormatted": "",
+              "price_formatted": "240 ₸",
+              "is_partial": false,
+              "partial_config": null,
+              "size_formatted": ""
+            }
+          ],
+          "scraped_at": "2025-08-21 15:24:19"
+        },
+        {
+          "id": "2418",
+          "name": "соус Горчичный 30г",
+          "description": "",
+          "price": {
+            "price": 240,
+            "currency": "₸",
+            "is_range": false,
+            "original_text": "240 ₸"
+          },
+          "size": "",
+          "url": "https://appfood1.kz/product/2418-sous-gorchichnyy-30g",
+          "images": [
+            {
+              "src": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/628b8291327c6b3a506c71c9f3597351---jpeg_420x420:whitepadding15_94310_convert.webp",
+              "low": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/628b8291327c6b3a506c71c9f3597351---jpeg_37x37:whitepadding1:quality20_8f789_convert.webp",
+              "high": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/628b8291327c6b3a506c71c9f3597351---jpeg_1100_1e6e0_convert.webp",
+              "ratio": "100.00",
+              "local_path": "output/images/628b8291327c6b3a506c71c9f3597351---jpeg_420x420:whitepadding15_94310_convert.webp"
+            }
+          ],
+          "modifiers": [
+            {
+              "title": "Выберите размер",
+              "type": "sizes",
+              "required": 1,
+              "options": [
+                {
+                  "id": null,
+                  "name": "",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 0,
+                  "default_amount": 0
+                }
+              ]
+            }
+          ],
+          "additional_prices": [
+            {
+              "price": 2400000,
+              "priceFormatted": "240 ₸",
+              "isPartial": false,
+              "partialConfig": null,
+              "size": "",
+              "sizeFormatted": "",
+              "price_formatted": "240 ₸",
+              "is_partial": false,
+              "partial_config": null,
+              "size_formatted": ""
+            }
+          ],
+          "scraped_at": "2025-08-21 15:24:29"
+        },
+        {
+          "id": "2491",
+          "name": "соус Барбекю 30г",
+          "description": "",
+          "price": {
+            "price": 240,
+            "currency": "₸",
+            "is_range": false,
+            "original_text": "240 ₸"
+          },
+          "size": "",
+          "url": "https://appfood1.kz/product/2491-sous-barbeku-30g",
+          "images": [
+            {
+              "src": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/efa6d1480bb4a3947d56250494bdc83a---jpeg_420x420:whitepadding15_94310_convert.webp",
+              "low": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/efa6d1480bb4a3947d56250494bdc83a---jpeg_37x37:whitepadding1:quality20_8f789_convert.webp",
+              "high": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/efa6d1480bb4a3947d56250494bdc83a---jpeg_1100_1e6e0_convert.webp",
+              "ratio": "99.93",
+              "local_path": "output/images/efa6d1480bb4a3947d56250494bdc83a---jpeg_420x420:whitepadding15_94310_convert.webp"
+            }
+          ],
+          "modifiers": [
+            {
+              "title": "Выберите размер",
+              "type": "sizes",
+              "required": 1,
+              "options": [
+                {
+                  "id": null,
+                  "name": "",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 0,
+                  "default_amount": 0
+                }
+              ]
+            }
+          ],
+          "additional_prices": [
+            {
+              "price": 2400000,
+              "priceFormatted": "240 ₸",
+              "isPartial": false,
+              "partialConfig": null,
+              "size": "",
+              "sizeFormatted": "",
+              "price_formatted": "240 ₸",
+              "is_partial": false,
+              "partial_config": null,
+              "size_formatted": ""
+            }
+          ],
+          "scraped_at": "2025-08-21 15:24:39"
+        },
+        {
+          "id": "2494",
+          "name": "соус Чесночный 30г",
+          "description": "",
+          "price": {
+            "price": 240,
+            "currency": "₸",
+            "is_range": false,
+            "original_text": "240 ₸"
+          },
+          "size": "",
+          "url": "https://appfood1.kz/product/2494-sous-chesnochnyy-30g",
+          "images": [
+            {
+              "src": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/0448f3c2b674898877d8a7c860eae049---jpeg_420x420:whitepadding15_94310_convert.webp",
+              "low": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/0448f3c2b674898877d8a7c860eae049---jpeg_37x37:whitepadding1:quality20_8f789_convert.webp",
+              "high": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/0448f3c2b674898877d8a7c860eae049---jpeg_1100_1e6e0_convert.webp",
+              "ratio": "100.00",
+              "local_path": "output/images/0448f3c2b674898877d8a7c860eae049---jpeg_420x420:whitepadding15_94310_convert.webp"
+            }
+          ],
+          "modifiers": [
+            {
+              "title": "Выберите размер",
+              "type": "sizes",
+              "required": 1,
+              "options": [
+                {
+                  "id": null,
+                  "name": "",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 0,
+                  "default_amount": 0
+                }
+              ]
+            }
+          ],
+          "additional_prices": [
+            {
+              "price": 2400000,
+              "priceFormatted": "240 ₸",
+              "isPartial": false,
+              "partialConfig": null,
+              "size": "",
+              "sizeFormatted": "",
+              "price_formatted": "240 ₸",
+              "is_partial": false,
+              "partial_config": null,
+              "size_formatted": ""
+            }
+          ],
+          "scraped_at": "2025-08-21 15:24:49"
+        },
+        {
+          "id": "2983",
+          "name": "соус Острый 30г",
+          "description": "",
+          "price": {
+            "price": 240,
+            "currency": "₸",
+            "is_range": false,
+            "original_text": "240 ₸"
+          },
+          "size": "",
+          "url": "https://appfood1.kz/product/2983-sous-ostryy-30g",
+          "images": [
+            {
+              "src": "https://cdn-kz11.foodpicasso.com/assets/96/f3/8c/bc/96f38cbc135c1879525601fd0344576f---jpg_420x420:whitepadding15_94310_convert.webp",
+              "low": "https://cdn-kz11.foodpicasso.com/assets/96/f3/8c/bc/96f38cbc135c1879525601fd0344576f---jpg_37x37:whitepadding1:quality20_8f789_convert.webp",
+              "high": "https://cdn-kz11.foodpicasso.com/assets/96/f3/8c/bc/96f38cbc135c1879525601fd0344576f---jpg_1100_1e6e0_convert.webp",
+              "ratio": "100.07",
+              "local_path": "output/images/96f38cbc135c1879525601fd0344576f---jpg_420x420:whitepadding15_94310_convert.webp"
+            }
+          ],
+          "modifiers": [
+            {
+              "title": "Выберите размер",
+              "type": "sizes",
+              "required": 1,
+              "options": [
+                {
+                  "id": null,
+                  "name": "",
+                  "price": 2400000,
+                  "price_formatted": "240 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 0,
+                  "default_amount": 0
+                }
+              ]
+            }
+          ],
+          "additional_prices": [
+            {
+              "price": 2400000,
+              "priceFormatted": "240 ₸",
+              "isPartial": false,
+              "partialConfig": null,
+              "size": "",
+              "sizeFormatted": "",
+              "price_formatted": "240 ₸",
+              "is_partial": false,
+              "partial_config": null,
+              "size_formatted": ""
+            }
+          ],
+          "scraped_at": "2025-08-21 15:24:59"
+        }
+      ],
+      "product_count": 7
+    },
+    {
+      "id": "403",
+      "title": "Напитки",
+      "restriction": "",
+      "products": [
+        {
+          "id": "2403",
+          "name": "Сок Лимонный 1,0л",
+          "description": "",
+          "price": {
+            "price": 990,
+            "currency": "₸",
+            "is_range": false,
+            "original_text": "990 ₸"
+          },
+          "size": "",
+          "url": "https://appfood1.kz/product/2403-sok-limonnyy-10l",
+          "images": [
+            {
+              "src": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/a20ed5cf74b611706a9079cac239e12d---png_420x420:whitepadding15_94310_convert.webp",
+              "low": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/a20ed5cf74b611706a9079cac239e12d---png_37x37:whitepadding1:quality20_8f789_convert.webp",
+              "high": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/a20ed5cf74b611706a9079cac239e12d---png_1100_1e6e0_convert.webp",
+              "ratio": "100.00",
+              "local_path": "output/images/a20ed5cf74b611706a9079cac239e12d---png_420x420:whitepadding15_94310_convert.webp"
+            }
+          ],
+          "modifiers": [
+            {
+              "title": "Выберите размер",
+              "type": "sizes",
+              "required": 1,
+              "options": [
+                {
+                  "id": null,
+                  "name": "",
+                  "price": 9900000,
+                  "price_formatted": "990 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 0,
+                  "default_amount": 0
+                }
+              ]
+            }
+          ],
+          "additional_prices": [
+            {
+              "price": 9900000,
+              "priceFormatted": "990 ₸",
+              "isPartial": false,
+              "partialConfig": null,
+              "size": "",
+              "sizeFormatted": "",
+              "price_formatted": "990 ₸",
+              "is_partial": false,
+              "partial_config": null,
+              "size_formatted": ""
+            }
+          ],
+          "scraped_at": "2025-08-21 15:25:09"
+        },
+        {
+          "id": "2470",
+          "name": "Сок Лимонный 0,3л",
+          "description": "",
+          "price": {
+            "price": 390,
+            "currency": "₸",
+            "is_range": false,
+            "original_text": "390 ₸"
+          },
+          "size": "",
+          "url": "https://appfood1.kz/product/2470-sok-limonnyy-03l",
+          "images": [
+            {
+              "src": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/e3445e38097d7fb9ef8e58c64d1b0534---jpeg_420x420:whitepadding15_94310_convert.webp",
+              "low": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/e3445e38097d7fb9ef8e58c64d1b0534---jpeg_37x37:whitepadding1:quality20_8f789_convert.webp",
+              "high": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/e3445e38097d7fb9ef8e58c64d1b0534---jpeg_1100_1e6e0_convert.webp",
+              "ratio": "100.00",
+              "local_path": "output/images/e3445e38097d7fb9ef8e58c64d1b0534---jpeg_420x420:whitepadding15_94310_convert.webp"
+            }
+          ],
+          "modifiers": [
+            {
+              "title": "Выберите размер",
+              "type": "sizes",
+              "required": 1,
+              "options": [
+                {
+                  "id": null,
+                  "name": "",
+                  "price": 3900000,
+                  "price_formatted": "390 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 0,
+                  "default_amount": 0
+                }
+              ]
+            }
+          ],
+          "additional_prices": [
+            {
+              "price": 3900000,
+              "priceFormatted": "390 ₸",
+              "isPartial": false,
+              "partialConfig": null,
+              "size": "",
+              "sizeFormatted": "",
+              "price_formatted": "390 ₸",
+              "is_partial": false,
+              "partial_config": null,
+              "size_formatted": ""
+            }
+          ],
+          "scraped_at": "2025-08-21 15:25:20"
+        },
+        {
+          "id": "2489",
+          "name": "Морс Смородина 1,0л",
+          "description": "",
+          "price": {
+            "price": 1390,
+            "currency": "₸",
+            "is_range": false,
+            "original_text": "1390 ₸"
+          },
+          "size": "",
+          "url": "https://appfood1.kz/product/2489-mors-smorodina-10l",
+          "images": [
+            {
+              "src": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/fe29ee0ab3100a6b940d873ea691e9ac---jpeg_420x420:whitepadding15_94310_convert.webp",
+              "low": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/fe29ee0ab3100a6b940d873ea691e9ac---jpeg_37x37:whitepadding1:quality20_8f789_convert.webp",
+              "high": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/fe29ee0ab3100a6b940d873ea691e9ac---jpeg_1100_1e6e0_convert.webp",
+              "ratio": "100.00",
+              "local_path": "output/images/fe29ee0ab3100a6b940d873ea691e9ac---jpeg_420x420:whitepadding15_94310_convert.webp"
+            }
+          ],
+          "modifiers": [
+            {
+              "title": "Выберите размер",
+              "type": "sizes",
+              "required": 1,
+              "options": [
+                {
+                  "id": null,
+                  "name": "",
+                  "price": 13900000,
+                  "price_formatted": "1390 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 0,
+                  "default_amount": 0
+                }
+              ]
+            }
+          ],
+          "additional_prices": [
+            {
+              "price": 13900000,
+              "priceFormatted": "1390 ₸",
+              "isPartial": false,
+              "partialConfig": null,
+              "size": "",
+              "sizeFormatted": "",
+              "price_formatted": "1390 ₸",
+              "is_partial": false,
+              "partial_config": null,
+              "size_formatted": ""
+            }
+          ],
+          "scraped_at": "2025-08-21 15:25:30"
+        },
+        {
+          "id": "2488",
+          "name": "Морс Смородина 0,3л",
+          "description": "",
+          "price": {
+            "price": 490,
+            "currency": "₸",
+            "is_range": false,
+            "original_text": "490 ₸"
+          },
+          "size": "",
+          "url": "https://appfood1.kz/product/2488-mors-smorodina-03l",
+          "images": [
+            {
+              "src": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/8efdca35c475f581483df64ff8337bbb---jpeg_420x420:whitepadding15_94310_convert.webp",
+              "low": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/8efdca35c475f581483df64ff8337bbb---jpeg_37x37:whitepadding1:quality20_8f789_convert.webp",
+              "high": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/8efdca35c475f581483df64ff8337bbb---jpeg_1100_1e6e0_convert.webp",
+              "ratio": "100.00",
+              "local_path": "output/images/8efdca35c475f581483df64ff8337bbb---jpeg_420x420:whitepadding15_94310_convert.webp"
+            }
+          ],
+          "modifiers": [
+            {
+              "title": "Выберите размер",
+              "type": "sizes",
+              "required": 1,
+              "options": [
+                {
+                  "id": null,
+                  "name": "",
+                  "price": 4900000,
+                  "price_formatted": "490 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 0,
+                  "default_amount": 0
+                }
+              ]
+            }
+          ],
+          "additional_prices": [
+            {
+              "price": 4900000,
+              "priceFormatted": "490 ₸",
+              "isPartial": false,
+              "partialConfig": null,
+              "size": "",
+              "sizeFormatted": "",
+              "price_formatted": "490 ₸",
+              "is_partial": false,
+              "partial_config": null,
+              "size_formatted": ""
+            }
+          ],
+          "scraped_at": "2025-08-21 15:25:40"
+        },
+        {
+          "id": "2336",
+          "name": "Айран 1ст",
+          "description": "",
+          "price": {
+            "price": 390,
+            "currency": "₸",
+            "is_range": false,
+            "original_text": "390 ₸"
+          },
+          "size": "",
+          "url": "https://appfood1.kz/product/2336-ayran-1st",
+          "images": [
+            {
+              "src": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/8c5dd0e3612f293fe87d01a7a817669d---jpeg_420x420:whitepadding15_94310_convert.webp",
+              "low": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/8c5dd0e3612f293fe87d01a7a817669d---jpeg_37x37:whitepadding1:quality20_8f789_convert.webp",
+              "high": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/8c5dd0e3612f293fe87d01a7a817669d---jpeg_1100_1e6e0_convert.webp",
+              "ratio": "100.00",
+              "local_path": "output/images/8c5dd0e3612f293fe87d01a7a817669d---jpeg_420x420:whitepadding15_94310_convert.webp"
+            }
+          ],
+          "modifiers": [
+            {
+              "title": "Выберите размер",
+              "type": "sizes",
+              "required": 1,
+              "options": [
+                {
+                  "id": null,
+                  "name": "",
+                  "price": 3900000,
+                  "price_formatted": "390 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 0,
+                  "default_amount": 0
+                }
+              ]
+            }
+          ],
+          "additional_prices": [
+            {
+              "price": 3900000,
+              "priceFormatted": "390 ₸",
+              "isPartial": false,
+              "partialConfig": null,
+              "size": "",
+              "sizeFormatted": "",
+              "price_formatted": "390 ₸",
+              "is_partial": false,
+              "partial_config": null,
+              "size_formatted": ""
+            }
+          ],
+          "scraped_at": "2025-08-21 15:25:50"
+        },
+        {
+          "id": "2399",
+          "name": "Пепси 1л",
+          "description": "",
+          "price": {
+            "price": 740,
+            "currency": "₸",
+            "is_range": false,
+            "original_text": "740 ₸"
+          },
+          "size": "",
+          "url": "https://appfood1.kz/product/2399-pepsi-1l",
+          "images": [
+            {
+              "src": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/b8e35534332c0d9853bb8ee9fe29646f---jpeg_420x420:whitepadding15_94310_convert.webp",
+              "low": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/b8e35534332c0d9853bb8ee9fe29646f---jpeg_37x37:whitepadding1:quality20_8f789_convert.webp",
+              "high": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/b8e35534332c0d9853bb8ee9fe29646f---jpeg_1100_1e6e0_convert.webp",
+              "ratio": "100.00",
+              "local_path": "output/images/b8e35534332c0d9853bb8ee9fe29646f---jpeg_420x420:whitepadding15_94310_convert.webp"
+            }
+          ],
+          "modifiers": [
+            {
+              "title": "Выберите размер",
+              "type": "sizes",
+              "required": 1,
+              "options": [
+                {
+                  "id": null,
+                  "name": "",
+                  "price": 7400000,
+                  "price_formatted": "740 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 0,
+                  "default_amount": 0
+                }
+              ]
+            }
+          ],
+          "additional_prices": [
+            {
+              "price": 7400000,
+              "priceFormatted": "740 ₸",
+              "isPartial": false,
+              "partialConfig": null,
+              "size": "",
+              "sizeFormatted": "",
+              "price_formatted": "740 ₸",
+              "is_partial": false,
+              "partial_config": null,
+              "size_formatted": ""
+            }
+          ],
+          "scraped_at": "2025-08-21 15:26:00"
+        },
+        {
+          "id": "2397",
+          "name": "Пепси 0,5л",
+          "description": "",
+          "price": {
+            "price": 640,
+            "currency": "₸",
+            "is_range": false,
+            "original_text": "640 ₸"
+          },
+          "size": "",
+          "url": "https://appfood1.kz/product/2397-pepsi-05l",
+          "images": [
+            {
+              "src": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/3a79628d7f921f91eafd5c3a1bd30012---jpeg_420x420:whitepadding15_94310_convert.webp",
+              "low": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/3a79628d7f921f91eafd5c3a1bd30012---jpeg_37x37:whitepadding1:quality20_8f789_convert.webp",
+              "high": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/3a79628d7f921f91eafd5c3a1bd30012---jpeg_1100_1e6e0_convert.webp",
+              "ratio": "100.00",
+              "local_path": "output/images/3a79628d7f921f91eafd5c3a1bd30012---jpeg_420x420:whitepadding15_94310_convert.webp"
+            }
+          ],
+          "modifiers": [
+            {
+              "title": "Выберите размер",
+              "type": "sizes",
+              "required": 1,
+              "options": [
+                {
+                  "id": null,
+                  "name": "",
+                  "price": 6400000,
+                  "price_formatted": "640 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 0,
+                  "default_amount": 0
+                }
+              ]
+            }
+          ],
+          "additional_prices": [
+            {
+              "price": 6400000,
+              "priceFormatted": "640 ₸",
+              "isPartial": false,
+              "partialConfig": null,
+              "size": "",
+              "sizeFormatted": "",
+              "price_formatted": "640 ₸",
+              "is_partial": false,
+              "partial_config": null,
+              "size_formatted": ""
+            }
+          ],
+          "scraped_at": "2025-08-21 15:26:11"
+        },
+        {
+          "id": "2374",
+          "name": "Пиала чай 1л",
+          "description": "",
+          "price": {
+            "price": 740,
+            "currency": "₸",
+            "is_range": false,
+            "original_text": "740 ₸"
+          },
+          "size": "",
+          "url": "https://appfood1.kz/product/2374-piala-chay-1l",
+          "images": [
+            {
+              "src": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/6c5f30cf228ba984715d633e13d350f6---png_420x420:whitepadding15_94310_convert.webp",
+              "low": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/6c5f30cf228ba984715d633e13d350f6---png_37x37:whitepadding1:quality20_8f789_convert.webp",
+              "high": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/6c5f30cf228ba984715d633e13d350f6---png_1100_1e6e0_convert.webp",
+              "ratio": "100.00",
+              "local_path": "output/images/6c5f30cf228ba984715d633e13d350f6---png_420x420:whitepadding15_94310_convert.webp"
+            }
+          ],
+          "modifiers": [
+            {
+              "title": "Выберите размер",
+              "type": "sizes",
+              "required": 1,
+              "options": [
+                {
+                  "id": null,
+                  "name": "",
+                  "price": 7400000,
+                  "price_formatted": "740 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 0,
+                  "default_amount": 0
+                }
+              ]
+            }
+          ],
+          "additional_prices": [
+            {
+              "price": 7400000,
+              "priceFormatted": "740 ₸",
+              "isPartial": false,
+              "partialConfig": null,
+              "size": "",
+              "sizeFormatted": "",
+              "price_formatted": "740 ₸",
+              "is_partial": false,
+              "partial_config": null,
+              "size_formatted": ""
+            }
+          ],
+          "scraped_at": "2025-08-21 15:26:21"
+        },
+        {
+          "id": "2291",
+          "name": "Пиала чай 0,5л",
+          "description": "",
+          "price": {
+            "price": 640,
+            "currency": "₸",
+            "is_range": false,
+            "original_text": "640 ₸"
+          },
+          "size": "",
+          "url": "https://appfood1.kz/product/2291-piala-chay-05l",
+          "images": [
+            {
+              "src": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/686ea4bea44c0cbf418254f5cca9e815---png_420x420:whitepadding15_94310_convert.webp",
+              "low": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/686ea4bea44c0cbf418254f5cca9e815---png_37x37:whitepadding1:quality20_8f789_convert.webp",
+              "high": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/686ea4bea44c0cbf418254f5cca9e815---png_1100_1e6e0_convert.webp",
+              "ratio": "100.00",
+              "local_path": "output/images/686ea4bea44c0cbf418254f5cca9e815---png_420x420:whitepadding15_94310_convert.webp"
+            }
+          ],
+          "modifiers": [
+            {
+              "title": "Выберите размер",
+              "type": "sizes",
+              "required": 1,
+              "options": [
+                {
+                  "id": null,
+                  "name": "",
+                  "price": 6400000,
+                  "price_formatted": "640 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 0,
+                  "default_amount": 0
+                }
+              ]
+            }
+          ],
+          "additional_prices": [
+            {
+              "price": 6400000,
+              "priceFormatted": "640 ₸",
+              "isPartial": false,
+              "partialConfig": null,
+              "size": "",
+              "sizeFormatted": "",
+              "price_formatted": "640 ₸",
+              "is_partial": false,
+              "partial_config": null,
+              "size_formatted": ""
+            }
+          ],
+          "scraped_at": "2025-08-21 15:26:31"
+        },
+        {
+          "id": "2341",
+          "name": "ДаДа 1л",
+          "description": "",
+          "price": {
+            "price": 990,
+            "currency": "₸",
+            "is_range": false,
+            "original_text": "990 ₸"
+          },
+          "size": "",
+          "url": "https://appfood1.kz/product/2341-dada-1l",
+          "images": [
+            {
+              "src": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/13c5ec64ce21c39139e0f414584f49f0---jpeg_420x420:whitepadding15_94310_convert.webp",
+              "low": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/13c5ec64ce21c39139e0f414584f49f0---jpeg_37x37:whitepadding1:quality20_8f789_convert.webp",
+              "high": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/13c5ec64ce21c39139e0f414584f49f0---jpeg_1100_1e6e0_convert.webp",
+              "ratio": "100.00",
+              "local_path": "output/images/13c5ec64ce21c39139e0f414584f49f0---jpeg_420x420:whitepadding15_94310_convert.webp"
+            }
+          ],
+          "modifiers": [
+            {
+              "title": "Выберите размер",
+              "type": "sizes",
+              "required": 1,
+              "options": [
+                {
+                  "id": null,
+                  "name": "",
+                  "price": 9900000,
+                  "price_formatted": "990 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 0,
+                  "default_amount": 0
+                }
+              ]
+            }
+          ],
+          "additional_prices": [
+            {
+              "price": 9900000,
+              "priceFormatted": "990 ₸",
+              "isPartial": false,
+              "partialConfig": null,
+              "size": "",
+              "sizeFormatted": "",
+              "price_formatted": "990 ₸",
+              "is_partial": false,
+              "partial_config": null,
+              "size_formatted": ""
+            }
+          ],
+          "scraped_at": "2025-08-21 15:26:41"
+        },
+        {
+          "id": "2511",
+          "name": "Сок ДаДа 0,2л",
+          "description": "",
+          "price": {
+            "price": 390,
+            "currency": "₸",
+            "is_range": false,
+            "original_text": "390 ₸"
+          },
+          "size": "",
+          "url": "https://appfood1.kz/product/2511-sok-dada-02l",
+          "images": [
+            {
+              "src": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/5dc2c7ea9c106dd4e56c797384ca4d98---jpeg_420x420:whitepadding15_94310_convert.webp",
+              "low": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/5dc2c7ea9c106dd4e56c797384ca4d98---jpeg_37x37:whitepadding1:quality20_8f789_convert.webp",
+              "high": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/5dc2c7ea9c106dd4e56c797384ca4d98---jpeg_1100_1e6e0_convert.webp",
+              "ratio": "100.00",
+              "local_path": "output/images/5dc2c7ea9c106dd4e56c797384ca4d98---jpeg_420x420:whitepadding15_94310_convert.webp"
+            }
+          ],
+          "modifiers": [
+            {
+              "title": "Выберите размер",
+              "type": "sizes",
+              "required": 1,
+              "options": [
+                {
+                  "id": null,
+                  "name": "",
+                  "price": 3900000,
+                  "price_formatted": "390 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 0,
+                  "default_amount": 0
+                }
+              ]
+            }
+          ],
+          "additional_prices": [
+            {
+              "price": 3900000,
+              "priceFormatted": "390 ₸",
+              "isPartial": false,
+              "partialConfig": null,
+              "size": "",
+              "sizeFormatted": "",
+              "price_formatted": "390 ₸",
+              "is_partial": false,
+              "partial_config": null,
+              "size_formatted": ""
+            }
+          ],
+          "scraped_at": "2025-08-21 15:26:52"
+        },
+        {
+          "id": "2490",
+          "name": "Асу 0,5л",
+          "description": "",
+          "price": {
+            "price": 390,
+            "currency": "₸",
+            "is_range": false,
+            "original_text": "390 ₸"
+          },
+          "size": "",
+          "url": "https://appfood1.kz/product/2490-asu-05l",
+          "images": [
+            {
+              "src": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/da4736943db10bcb6288e2877bde7435---jpeg_420x420:whitepadding15_94310_convert.webp",
+              "low": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/da4736943db10bcb6288e2877bde7435---jpeg_37x37:whitepadding1:quality20_8f789_convert.webp",
+              "high": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/da4736943db10bcb6288e2877bde7435---jpeg_1100_1e6e0_convert.webp",
+              "ratio": "100.00",
+              "local_path": "output/images/da4736943db10bcb6288e2877bde7435---jpeg_420x420:whitepadding15_94310_convert.webp"
+            }
+          ],
+          "modifiers": [
+            {
+              "title": "Выберите размер",
+              "type": "sizes",
+              "required": 1,
+              "options": [
+                {
+                  "id": null,
+                  "name": "",
+                  "price": 3900000,
+                  "price_formatted": "390 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 0,
+                  "default_amount": 0
+                }
+              ]
+            }
+          ],
+          "additional_prices": [
+            {
+              "price": 3900000,
+              "priceFormatted": "390 ₸",
+              "isPartial": false,
+              "partialConfig": null,
+              "size": "",
+              "sizeFormatted": "",
+              "price_formatted": "390 ₸",
+              "is_partial": false,
+              "partial_config": null,
+              "size_formatted": ""
+            }
+          ],
+          "scraped_at": "2025-08-21 15:27:02"
+        },
+        {
+          "id": "2402",
+          "name": "Асу 1л",
+          "description": "",
+          "price": {
+            "price": 490,
+            "currency": "₸",
+            "is_range": false,
+            "original_text": "490 ₸"
+          },
+          "size": "",
+          "url": "https://appfood1.kz/product/2402-asu-1l",
+          "images": [
+            {
+              "src": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/41ca19a6fbf1fc0611f3895f8907f92c---jpeg_420x420:whitepadding15_94310_convert.webp",
+              "low": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/41ca19a6fbf1fc0611f3895f8907f92c---jpeg_37x37:whitepadding1:quality20_8f789_convert.webp",
+              "high": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/41ca19a6fbf1fc0611f3895f8907f92c---jpeg_1100_1e6e0_convert.webp",
+              "ratio": "100.00",
+              "local_path": "output/images/41ca19a6fbf1fc0611f3895f8907f92c---jpeg_420x420:whitepadding15_94310_convert.webp"
+            }
+          ],
+          "modifiers": [
+            {
+              "title": "Выберите размер",
+              "type": "sizes",
+              "required": 1,
+              "options": [
+                {
+                  "id": null,
+                  "name": "",
+                  "price": 4900000,
+                  "price_formatted": "490 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 0,
+                  "default_amount": 0
+                }
+              ]
+            }
+          ],
+          "additional_prices": [
+            {
+              "price": 4900000,
+              "priceFormatted": "490 ₸",
+              "isPartial": false,
+              "partialConfig": null,
+              "size": "",
+              "sizeFormatted": "",
+              "price_formatted": "490 ₸",
+              "is_partial": false,
+              "partial_config": null,
+              "size_formatted": ""
+            }
+          ],
+          "scraped_at": "2025-08-21 15:27:12"
+        },
+        {
+          "id": "2392",
+          "name": "Лавина 0,5л",
+          "description": "",
+          "price": {
+            "price": 690,
+            "currency": "₸",
+            "is_range": false,
+            "original_text": "690 ₸"
+          },
+          "size": "",
+          "url": "https://appfood1.kz/product/2392-lavina-05l",
+          "images": [
+            {
+              "src": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/5410f4fa01ed227663bc945e2c7fe4ba---jpeg_420x420:whitepadding15_94310_convert.webp",
+              "low": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/5410f4fa01ed227663bc945e2c7fe4ba---jpeg_37x37:whitepadding1:quality20_8f789_convert.webp",
+              "high": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/5410f4fa01ed227663bc945e2c7fe4ba---jpeg_1100_1e6e0_convert.webp",
+              "ratio": "100.00",
+              "local_path": "output/images/5410f4fa01ed227663bc945e2c7fe4ba---jpeg_420x420:whitepadding15_94310_convert.webp"
+            }
+          ],
+          "modifiers": [
+            {
+              "title": "Выберите размер",
+              "type": "sizes",
+              "required": 1,
+              "options": [
+                {
+                  "id": null,
+                  "name": "",
+                  "price": 6900000,
+                  "price_formatted": "690 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 0,
+                  "default_amount": 0
+                }
+              ]
+            }
+          ],
+          "additional_prices": [
+            {
+              "price": 6900000,
+              "priceFormatted": "690 ₸",
+              "isPartial": false,
+              "partialConfig": null,
+              "size": "",
+              "sizeFormatted": "",
+              "price_formatted": "690 ₸",
+              "is_partial": false,
+              "partial_config": null,
+              "size_formatted": ""
+            }
+          ],
+          "scraped_at": "2025-08-21 15:27:22"
+        },
+        {
+          "id": "2467",
+          "name": "Горила 0,5л",
+          "description": "",
+          "price": {
+            "price": 690,
+            "currency": "₸",
+            "is_range": false,
+            "original_text": "690 ₸"
+          },
+          "size": "",
+          "url": "https://appfood1.kz/product/2467-gorila-05l",
+          "images": [
+            {
+              "src": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/17109ed26f93ceebcfca01d1120d8fb4---jpeg_420x420:whitepadding15_94310_convert.webp",
+              "low": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/17109ed26f93ceebcfca01d1120d8fb4---jpeg_37x37:whitepadding1:quality20_8f789_convert.webp",
+              "high": "https://cdn-kz11.foodpicasso.com/assets/2025/04/14/17109ed26f93ceebcfca01d1120d8fb4---jpeg_1100_1e6e0_convert.webp",
+              "ratio": "100.00",
+              "local_path": "output/images/17109ed26f93ceebcfca01d1120d8fb4---jpeg_420x420:whitepadding15_94310_convert.webp"
+            }
+          ],
+          "modifiers": [
+            {
+              "title": "Выберите размер",
+              "type": "sizes",
+              "required": 1,
+              "options": [
+                {
+                  "id": null,
+                  "name": "",
+                  "price": 6900000,
+                  "price_formatted": "690 ₸",
+                  "size": "",
+                  "photo": "",
+                  "min": 0,
+                  "max": 0,
+                  "default_amount": 0
+                }
+              ]
+            }
+          ],
+          "additional_prices": [
+            {
+              "price": 6900000,
+              "priceFormatted": "690 ₸",
+              "isPartial": false,
+              "partialConfig": null,
+              "size": "",
+              "sizeFormatted": "",
+              "price_formatted": "690 ₸",
+              "is_partial": false,
+              "partial_config": null,
+              "size_formatted": ""
+            }
+          ],
+          "scraped_at": "2025-08-21 15:27:32"
+        }
+      ],
+      "product_count": 15
+    }
+  ]
+}
