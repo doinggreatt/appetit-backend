@@ -8,7 +8,7 @@ from authx.exceptions import MissingTokenError
 
 from apps import api_router
 
-app = FastAPI(openapi_prefix="/api")
+app = FastAPI()
 app.include_router(api_router)
 
 def custom_openapi():
