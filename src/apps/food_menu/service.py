@@ -278,11 +278,11 @@ async def get_menu_service(*, db_sess: AsyncSession):
                 output_item = next((_ for _ in output if _["food_type_id"]  == food_detail.food_type_id), None)
                 output_item["foods"].append(food_detail)
 
-            output = [ReadAllMenu(
-                food_type_name=item["food_type_name"],
-                food_type_id=item["food_type_id"],
-                foods=item["foods"]
-                ) for item in output]
+        output = [ReadAllMenu(
+            food_type_name=item["food_type_name"],
+            food_type_id=item["food_type_id"],
+            foods=item["foods"]
+            ) for item in output]
 
         return output
 
