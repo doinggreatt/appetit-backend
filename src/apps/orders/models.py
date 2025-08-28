@@ -14,4 +14,3 @@ class BaseOrderModel(Base):
 class Order(BaseOrderModel):
     __tablename__ = 'orders'
 
-    order_food: Mapped["OrderFood"] = relationship(back_populates="order")
