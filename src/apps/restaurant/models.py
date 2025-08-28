@@ -15,3 +15,5 @@ class Restaurant(BaseRestaurantModel):
     __tablename__ = 'restaurant'
 
     name: Mapped[BaseModelFieldTypes.str_255]
+    lat: Mapped[float]
+    lon: Mapped[float]
