@@ -12,6 +12,7 @@ from apps.models import * # noqa
 from apps.users.models import User
 from apps.food_menu.models import Menu, FoodType, Food, FoodModifierOption, ModifierCategory, ModifierOption
 from apps.restaurant.models import Restaurant
+from apps.orders.models import OrderStatus, Order, OrderFoodFoodSize, OrderModifierOption
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.

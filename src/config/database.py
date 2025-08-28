@@ -82,6 +82,7 @@ schemas = [
     "users",
     "menu",
     "restaurant",
+    "orders",
 ]
 
 def create_schemas():
