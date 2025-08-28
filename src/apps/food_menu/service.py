@@ -321,7 +321,21 @@ async def upload_file_by_id_service(*, db_sess: AsyncSession, model: Any, id: in
 
     return {"id": model_obj.id, "image_url": getattr(model_obj, model_filepath_attr_name)}
 
+async def get_image_url_by_id_service(*, db_sess: AsyncSession, model: any, id: int,
+                                      model_filepath_attr_name):
+    stmt = select(model).where(model.id == id)
+    res = await db_sess.execute(stmt)
+    model_obj = res.scalars().one_or_none()
 
+    if not model_obj:
+        raise HTTPException(status_code=404, detail="not found")
+
+    path = getattr(model_obj, model_filepath_attr_name)
+
+    if not path:
+        raise HTTPException(status_code=404, detail="not found")
+
+    return path
 
 
 

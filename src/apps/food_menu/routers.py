@@ -1,11 +1,11 @@
-from fastapi import APIRouter, Depends, UploadFile, File, HTTPException
+from fastapi import APIRouter, Depends, UploadFile, File, HTTPException, Request
 
 from config import SessionDep
 from .models import Food
 from .schemas import WriteSingleFoodSchema, WriteModifierCategorySchema, WriteModifierOptionSchema, WriteFoodTypeSchema, WriteSingleMenuSchema
 from .schemas import ReadModifierCategorySchema, ReadFoodTypeSchema, ReadSingleMenuSchema, ReadSingleFoodSchema
 from .service import create_food_service, create_modifier_category_service, create_modifier_option_service, create_food_type_service, create_menu_service
-from .service import get_modifier_category_service, get_modifier_options_service, get_food_type_service, get_menu_service
+from .service import get_modifier_category_service, get_modifier_options_service, get_food_type_service, get_menu_service, get_image_url_by_id_service
 from .service import upload_file_by_id_service
 
 common_router = APIRouter(tags=["Food"])
@@ -34,6 +34,15 @@ async def upload_food_image(
 
     return resp
 
+@common_router.get("{food_id}/image")
+async def get_food_image(
+        food_id: int,
+        db_ses: SessionDep,
+        req: Request
+):
+    path = await get_image_url_by_id_service(db_sess=db_ses, model=Food, id=food_id,
+                                             model_filepath_attr_name="image_path")
+    return {"id": food_id, "image_url": f"{req.base_url}media/food_size/{path}"}
 
 
 # =============== Food Type
