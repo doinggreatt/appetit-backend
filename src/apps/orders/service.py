@@ -33,15 +33,15 @@ async def _get_pending_status_id(*, db_sess: AsyncSession) -> int:
 
     if not res:
         raise HTTPException(status_code=500, detail="No pending status is created")
+    return res.id
 
 async def create(*, db_sess: AsyncSession, order_data: WriteSingleOrderSchema, req: Request):
     status_id = await _get_pending_status_id(db_sess=db_sess)
     total_sum = 0
     user = await get_user_by(db_sess=db_sess, field=UserLookupField.REQUEST, value=req)
-    order = Order(status_id=status_id, is_payed=order_data.is_payed, address=order_data.address, user_id=user.idz)
+    order = Order(status_id=status_id, is_payed=order_data.is_payed, user_id=user.id)
     db_sess.add(order)
     await db_sess.commit()
-
 
     for food_id in order_data.food_ids:
         new_order_food_obj = OrderFood(order_id=order.id, food_id=food_id)
@@ -63,6 +63,6 @@ async def create(*, db_sess: AsyncSession, order_data: WriteSingleOrderSchema, r
         id=order.id,
         order_status_id=status_id,
         order_status_name="pending"
-
     )
-    return order
+
+    return out

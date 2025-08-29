@@ -10,3 +10,4 @@ class WriteSingleOrderSchema(BaseModel):
 
 class ReadSingleOrderSchema(BaseModel):
     id: int
+
