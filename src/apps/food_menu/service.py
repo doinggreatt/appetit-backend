@@ -314,7 +314,7 @@ async def upload_file_by_id_service(*, db_sess: AsyncSession, model: Any, id: in
         shutil.copyfileobj(upload_file.file, buffer)
 
 
-    setattr(model_obj, model_filepath_attr_name, filepath)
+    setattr(model_obj, model_filepath_attr_name, filename)
 
     await db_sess.commit()
     await db_sess.refresh(model_obj)

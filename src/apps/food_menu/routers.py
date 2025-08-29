@@ -44,7 +44,8 @@ async def get_food_image(
 ):
     path = await get_image_url_by_id_service(db_sess=db_ses, model=Food, id=food_id,
                                              model_filepath_attr_name="image_path")
-    return {"id": food_id, "image_url": f"{req.base_url}media/food_size/{path}"}
+
+    return {"id": food_id, "image_url": f"{req.base_url}media/foods/{path}"}
 
 
 # =============== Food Type

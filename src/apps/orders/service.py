@@ -39,7 +39,7 @@ async def create(*, db_sess: AsyncSession, order_data: WriteSingleOrderSchema, r
     status_id = await _get_pending_status_id(db_sess=db_sess)
     total_sum = 0
     user = await get_user_by(db_sess=db_sess, field=UserLookupField.REQUEST, value=req)
-    order = Order(status_id=status_id, is_payed=order_data.is_payed, user_id=user.id)
+    order = Order(status_id=status_id, is_payed=order_data.is_payed, user_id=user.id, restaurant_id=order_data.restaurant_id)
     db_sess.add(order)
     await db_sess.commit()
 
@@ -61,8 +61,6 @@ async def create(*, db_sess: AsyncSession, order_data: WriteSingleOrderSchema, r
 
     out = ReadSingleOrderSchema(
         id=order.id,
-        order_status_id=status_id,
-        order_status_name="pending"
     )
 
     return out
