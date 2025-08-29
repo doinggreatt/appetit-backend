@@ -22,8 +22,8 @@ class Order(BaseOrderModel):
     user_id: Mapped[int] = mapped_column(ForeignKey("users.user.id"))
     status_id: Mapped[int] = mapped_column(ForeignKey("orders.order_status.id"))
     total_sum: Mapped[float] = mapped_column(nullable=True, default=0)
-    address: Mapped[str] = mapped_column(nullable=True)
     is_payed: Mapped[bool]
+    restaurant_id: Mapped[int] = mapped_column(ForeignKey("restaurant.restaurant.id"))
 
 
 

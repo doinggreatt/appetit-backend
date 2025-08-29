@@ -8,7 +8,7 @@ from .models import Order, OrderStatus, OrderFood, OrderFoodSize, OrderModifierO
 from apps.food_menu.models import ModifierOption, FoodSize
 from apps.users.enums import UserLookupField
 from apps.users.service import get_user_by
-from .schemas import WriteSingleOrderSchema
+from .schemas import WriteSingleOrderSchema, ReadSingleOrderSchema
 
 
 async def _count_total_sum(*, db_sess: AsyncSession, total_sum: int, model: Any, ids: list) -> int:
@@ -59,4 +59,10 @@ async def create(*, db_sess: AsyncSession, order_data: WriteSingleOrderSchema, r
     db_sess.add(order)
     await db_sess.commit()
 
+    out = ReadSingleOrderSchema(
+        id=order.id,
+        order_status_id=status_id,
+        order_status_name="pending"
+
+    )
     return order

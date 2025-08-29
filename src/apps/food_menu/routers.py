@@ -34,7 +34,7 @@ async def upload_food_image(
 
     return resp
 
-@common_router.get("{food_id}/image")
+@common_router.get("/{food_id}/image")
 async def get_food_image(
         food_id: int,
         db_ses: SessionDep,
