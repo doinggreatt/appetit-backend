@@ -19,18 +19,25 @@ class OrderStatus(BaseOrderModel):
 class Order(BaseOrderModel):
     __tablename__ = 'orders'
 
+    user_id: Mapped[int] = mapped_column(ForeignKey("users.user.id"))
     status_id: Mapped[int] = mapped_column(ForeignKey("orders.order_status.id"))
-    total_sum: Mapped[float]
+    total_sum: Mapped[float] = mapped_column(nullable=True, default=0)
+    address: Mapped[str] = mapped_column(nullable=True)
     is_payed: Mapped[bool]
 
 
-class OrderFoodFoodSize(BaseOrderModel):
-    __tablename__ = "orders_food_food_size"
+
+class OrderFood(BaseOrderModel):
+    __tablename__ = "orders_food"
 
     order_id: Mapped[int] = mapped_column(ForeignKey("orders.orders.id"))
     food_id: Mapped[int] = mapped_column(ForeignKey("menu.food.id"))
-    food_size_id: Mapped[int] = mapped_column(ForeignKey("menu.food_size.id"))
 
+class OrderFoodSize(BaseOrderModel):
+    __tablename__ = "orders_food_size"
+
+    order_id: Mapped[int] = mapped_column(ForeignKey("orders.orders.id"))
+    food_size_id: Mapped[int] = mapped_column(ForeignKey("menu.food_size.id"))
 
 class OrderModifierOption(BaseOrderModel):
     __tablename__ = "orders_modifier_option"
